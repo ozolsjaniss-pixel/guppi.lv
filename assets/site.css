@@ -88,7 +88,10 @@ nav.desk a { text-decoration: none; }
 .faq { border: 3px solid var(--ink); border-radius: 1rem; background: var(--card); }
 .faq details { padding: 0.9rem 1rem; border-top: 1px solid rgba(44, 28, 36, 0.15); }
 .faq details:first-child { border-top: 0; }
-.faq summary { cursor: pointer; font-weight: 700; }
+.faq summary { cursor: pointer; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; flex: none; color: var(--plum); font-family: Nunito, sans-serif; font-size: 1.5rem; line-height: 1; }
+.faq details[open] summary::after { content: "−"; }
 .page { padding: 2rem 0 3rem; }
 .lead { font-size: 1.15rem; line-height: 1.6; max-width: 40rem; }
 .filters { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 1rem 0; }
