@@ -17,7 +17,7 @@ var BUSINESS = "guppi"
   }
   function whole(n) { return typeof n === "number" && n >= 0 && n % 1 === 0 }
   // Summu raksta pēc portāla iestatījumiem (Iestatījumi → Maksājumi). Portāls cenas jau noapaļo.
-  var MONEY = { symbol: "EUR", symbol_after: true, decimal: ",", thousands: " " }
+  var MONEY = { symbol: "€", symbol_after: true, decimal: ",", thousands: " " }
   function amount(cents) {
     var value = cents / 100
     var parts = (value % 1 ? value.toFixed(2) : String(value)).split(".")
@@ -57,7 +57,7 @@ var BUSINESS = "guppi"
       priced.forEach(function (span) {
         var cents = price(span.getAttribute("data-portal-price"), items)
         if (cents == null) return
-        // Diapazona sākumā (169–209 EUR) valūtas zīmi neliekam: tur teksts beidzas ar ciparu.
+        // Diapazona sākumā (169–209 €) valūtas zīmi neliekam: tur teksts beidzas ar ciparu.
         span.textContent = /\d$/.test(span.textContent.trim()) ? amount(cents) : money(cents)
         var card = span.closest("[data-card]")
         if (card) card.setAttribute("data-price", String(cents / 100))
