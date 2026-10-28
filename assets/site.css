@@ -77,6 +77,8 @@ nav.desk a { text-decoration: none; }
 .card .pad, .panel { padding: 1rem 1.1rem 1.15rem; }
 .card h2 { font-size: 1.45rem; }
 .card h2 a { text-decoration: none; }
+.card .meta { margin-top: 0.35rem; }
+.card .summary { margin-top: 0.45rem; }
 .price { color: var(--plum); font-family: Nunito, sans-serif; font-weight: 800; font-size: 1.5rem; }
 .card-foot { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0.6rem; margin-top: 0.8rem; }
 .card-foot .price, .card-foot .btn { white-space: nowrap; }
@@ -110,13 +112,23 @@ label.lbl { display: block; font-size: 0.92rem; font-weight: 700; margin-bottom:
 .thumbs button { padding: 0; border-radius: 0.7rem; border: 2px solid transparent; background: none; cursor: pointer; }
 .thumbs button.on { border-color: var(--plum); }
 .thumbs img { width: 4.5rem; height: 4.5rem; object-fit: cover; border-radius: 0.6rem; }
-.product { display: grid; gap: 1.5rem; }
+.product { display: grid; gap: 1.5rem; margin-top: 1rem; }
+.product .lead { margin-top: 0.7rem; }
+.product .desc { margin-top: 0.6rem; }
+.price-line { margin-top: 0.8rem; }
+.price.big { font-size: 2.2rem; }
+.product .specs { margin-top: 0.8rem; }
+.split.extras { margin-top: 2rem; }
+h2.similar { margin-top: 2rem; font-size: 1.8rem; }
+.similar + .cards { margin-top: 0.8rem; }
 .specs { grid-template-columns: 1fr 1fr; }
 .spec { border: 1px solid var(--line); background: var(--card); border-radius: 0.9rem; padding: 0.55rem 0.7rem; font-size: 0.92rem; }
 .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; margin: 0.6rem 0 0; list-style: none; }
 .tags li { background: #f3ecec; border-radius: 999px; padding: 0.25rem 0.7rem; font-size: 0.9rem; }
 .foot { border-top: 4px solid var(--gold); background: var(--card); margin-top: auto; }
 .foot-grid { display: grid; gap: 1.2rem; padding: 2rem 0; }
+.foot-title { font-size: 1.15rem; }
+.foot-about { margin-top: 0.7rem; max-width: 22rem; }
 .links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; border-top: 1px solid var(--line); padding: 0.8rem 0 1rem; font-size: 0.92rem; }
 .links a { color: var(--muted); }
 .hide { display: none !important; }
