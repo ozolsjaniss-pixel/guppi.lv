@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lauku sēta noma Rīgā | GUPPI</title>
-  <meta name="description" content="Liela tematiska atrakcija ar lēcienu siena kaudzē, batutu un slidkalniņu.">
+  <!-- portal-seo:description:PG1ldGEgbmFtZT0iZGVzY3JpcHRpb24iIGNvbnRlbnQ9IkxpZWxhIHRlbWF0aXNrYSBhdHJha2NpamEgYXIgbMSTY2llbnUgc2llbmEga2F1ZHrEkywgYmF0dXR1IHVuIHNsaWRrYWxuacWGdS4iPg== --><meta name="description" content="Liela tematiska atrakcija ar lēcienu siena kaudzē, batutu un slidkalniņu."><!-- /portal-seo -->
   <link rel="icon" href="../../brand/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Nunito:wght@800&amp;display=swap">
@@ -17,6 +17,7 @@
       <nav class="desk" aria-label="Galvenā">
         <a href="../../atrakcijas/index.html">Atrakcijas</a><a href="../../piegade/index.html">Piegāde</a><a href="../../atsauksmes/index.html">Atsauksmes</a><a href="../../padomi/index.html">Padomi</a><a href="../../kontakti/index.html">Kontakti</a>
       </nav>
+      <div class="top-cart" data-portal-cart="guppi" data-view="button" data-href="../../grozs/index.html"></div>
       <div class="desk-actions">
         <a class="phone" href="tel:+37129886317">29886317</a>
         <a class="btn" href="../../rezervet/index.html">Rezervēt</a>
@@ -44,15 +45,8 @@
         <p class="lead" style="margin-top:0.7rem">Liela tematiska atrakcija ar lēcienu siena kaudzē, batutu un slidkalniņu.</p>
         <p class="muted" style="margin-top:0.6rem">Bērni kāpj un lec lejā mīkstā siena kaudzē, tad iet cauri šķēršļiem, batutam un slidkalniņam. Tā ir viena no atrakcijām, kas nodarbina dažādu vecumu vienlaikus.</p>
         <p style="margin-top:0.8rem"><span class="price" style="font-size:2.2rem">219 €</span> <span class="muted">/ 1 diena</span> <span class="old">279 €</span></p>
-        <div data-product-desk data-slug="lauku-seta" data-prices="219,339,439" id="kalendars">
-          <p style="margin-top:1rem;font-weight:700">Cik dienas?</p>
-          <div class="days" style="margin-top:0.4rem">
-            <button type="button" data-days="1" class="on"><span style="display:block;font-weight:800">1 diena</span>219 €</button><button type="button" data-days="2" class=""><span style="display:block;font-weight:800">2 dienas</span>339 €</button><button type="button" data-days="3" class=""><span style="display:block;font-weight:800">3 dienas</span>439 €</button>
-          </div>
-          <div class="cal" data-cal></div>
-          <a class="btn wide is-off" data-go data-base="../../rezervet/index.html" href="#kalendars" style="margin-top:0.8rem">Vispirms izvēlies dienu</a>
-          <p class="note">Avanss 20%. Uzstādām līdz 12:00, novācam pēc 19:00.</p>
-        </div>
+        <div class="booking" id="kalendars" data-portal-booking="guppi" data-item="lauku-seta" data-cart-href="../../grozs/index.html"></div>
+        <p class="note">Uzstādām līdz 12:00, novācam pēc 19:00.</p>
         <dl class="specs" style="margin-top:0.8rem">
           <div class="spec"><dt class="muted">Vecums</dt><dd>no 3 gadiem</dd></div>
           <div class="spec"><dt class="muted">Izmērs</dt><dd>8 × 6 × 5 m</dd></div>
@@ -71,7 +65,10 @@
         <div class="panel" style="margin-top:0.7rem"><h2>Sagatavo tu</h2><ul><li>Līdzenu laukumu atrakcijas izmērā</li><li>Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m</li><li>Vismaz 1,5 m platu piekļuvi līdz vietai</li><li>Pieaugušā uzraudzību visu nomas laiku</li></ul></div>
       </div>
     </div>
-    <h2 style="margin-top:2rem;font-size:1.8rem">Līdzīgas atrakcijas</h2>
+    <!-- portal-reviews:products -->
+<div data-portal-reviews="guppi" data-layout="list" data-product="lauku-seta" style="margin-top:2.5rem"></div>
+<script src="http://127.0.0.1:8787/widget/reviews.js" async></script>
+<!-- /portal-reviews --><h2 style="margin-top:2rem;font-size:1.8rem">Līdzīgas atrakcijas</h2>
     <div class="cards" style="margin-top:0.8rem"><article class="card" data-card data-group="mega" data-water="ne" data-name="Mega dinozauri" data-summary="Liela atrakcija ar lēcienu no augšas, šķēršļiem, batutu un slidkalniņu." data-price="259" data-area="42.6" data-order="1">
     <a class="shot" href="../../atrakcijas/dinozauri/index.html">
       <img src="../../media/dinozauri/1.webp" alt="Mega dinozauri piepūšamā atrakcija nomā">
@@ -143,5 +140,6 @@
   </footer>
   <script src="../../assets/data.js"></script>
   <script src="../../assets/site.js"></script>
+  <script src="../../assets/portal.js"></script>
 </body>
 </html>

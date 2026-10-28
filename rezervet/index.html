@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rezervēt piepūšamo atrakciju | GUPPI</title>
-  <meta name="description" content="Izvēlies brīvu dienu un nosūti rezervācijas pieteikumu.">
+  <!-- portal-seo:title:PHRpdGxlPlJlemVydsSTdCBwaWVwxavFoWFtbyBhdHJha2NpanUgfCBHVVBQSTwvdGl0bGU+ --><title>Rezervēt piepūšamo atrakciju | GUPPI</title><!-- /portal-seo -->
+  <!-- portal-seo:description:PG1ldGEgbmFtZT0iZGVzY3JpcHRpb24iIGNvbnRlbnQ9Ikl6dsSTbGllcyBicsSrdnUgZGllbnUgdW4gbm9zxat0aSByZXplcnbEgWNpamFzIHBpZXRlaWt1bXUuIj4= --><meta name="description" content="Izvēlies brīvu dienu un nosūti rezervācijas pieteikumu."><!-- /portal-seo -->
   <link rel="icon" href="../brand/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Nunito:wght@800&amp;display=swap">
@@ -17,6 +17,7 @@
       <nav class="desk" aria-label="Galvenā">
         <a href="../atrakcijas/index.html">Atrakcijas</a><a href="../piegade/index.html">Piegāde</a><a href="../atsauksmes/index.html">Atsauksmes</a><a href="../padomi/index.html">Padomi</a><a href="../kontakti/index.html">Kontakti</a>
       </nav>
+      <div class="top-cart" data-portal-cart="guppi" data-view="button" data-href="../grozs/index.html"></div>
       <div class="desk-actions">
         <a class="phone" href="tel:+37129886317">29886317</a>
         <a class="btn" href="../rezervet/index.html">Rezervēt</a>
@@ -31,56 +32,10 @@
       </details>
     </div>
   </header>
-  <main><div class="wrap page" data-book>
+  <main><div class="wrap page">
     <h1>Rezervēt</h1>
-    <p class="muted" style="margin-top:0.6rem;max-width:40rem">Izvēlies brīvu dienu. Pēc tam ievadi adresi. Pieteikumu nosūti uz info@guppi.lv, un mēs apstiprinām vietu ar 20% avansu.</p>
-    <form class="layout book" style="margin-top:1.2rem">
-      <div>
-        <div class="split">
-          <div class="field"><label class="lbl" for="slug">Atrakcija</label>
-            <select id="slug" data-slug><option value="dinozauri">Mega dinozauri</option><option value="minecraft">Mega Minecraft</option><option value="lauku-seta">Lauku sēta</option><option value="vienradzis">Vienradzis</option><option value="pirati">Mega pirāti</option><option value="frozen-pils">Frozen pils</option><option value="roboti">Roboti</option><option value="kepu-patrula-movie">Ķepu patruļa</option><option value="lego-movie-stafete">Lego Movie</option><option value="lola">LOL</option><option value="pludmale-un-serfings">Pludmale un sērfings</option><option value="super-sonic">Super Sonic</option><option value="transformeri">Transformeri</option><option value="lielie-minioni">Lielie minioni</option><option value="supervaroni">Supervaroņi</option><option value="vienradzitis">Vienradzītis</option><option value="minioni">Minioni</option><option value="indians">Indiāņi</option><option value="ariel-narina">Ariel nāriņa</option><option value="smurfi">Smurfi</option><option value="barby">Bārbija</option><option value="taurenitis">Taurenītis</option><option value="vienradzite">Vienradzīte</option><option value="cucina-pepa">Cūciņa Pepa</option><option value="pasakumu-telts-3x6">Pasākumu telts 3×6 m</option></select>
-          </div>
-          <div class="field"><span class="lbl">Ilgums</span><div class="days">
-            <button type="button" data-days="1" class="on">1 diena<b style="display:block"></b></button><button type="button" data-days="2" class="">2 dienas<b style="display:block"></b></button><button type="button" data-days="3" class="">3 dienas<b style="display:block"></b></button>
-          </div></div>
-        </div>
-        <div class="cal" data-cal></div>
-        <div class="picked hide" data-picked><p><strong></strong> · diena ir brīva</p><button type="button" class="linkish">Mainīt dienu</button></div>
-        <p class="note" data-hint>Izvēlies brīvu dienu. Pēc tam ievadīsi adresi un kontaktus.</p>
-        <div class="hide" data-fields>
-          <div class="split">
-            <div class="field"><label class="lbl" for="postal">Pasta indekss</label><input id="postal" name="postal" data-postal inputmode="numeric" required placeholder="2167"></div>
-            <div class="field"><label class="lbl" for="name">Vārds</label><input id="name" name="name" required></div>
-          </div>
-          <div class="split">
-            <div class="field"><label class="lbl" for="phone">Tālrunis</label><input id="phone" name="phone" required></div>
-            <div class="field"><label class="lbl" for="email">E-pasts rēķinam</label><input id="email" name="email" type="email" required></div>
-          </div>
-          <div class="field"><label class="lbl" for="address">Piegādes adrese</label><input id="address" name="address" required></div>
-          <div class="split">
-            <div class="field"><label class="lbl" for="childAge">Bērnu vecums</label><input id="childAge" name="childAge" placeholder="piemēram, 4–7"></div>
-            <div class="field"><label class="lbl" for="code">Atlaides kods</label><input id="code" name="code"></div>
-          </div>
-          <div class="field"><label class="lbl" for="notes">Piezīmes</label><textarea id="notes" name="notes" placeholder="Vārti, elektrība, ja ballīte sākas agrāk"></textarea></div>
-          <label style="display:flex;gap:0.5rem;margin-top:0.8rem"><input type="checkbox" required style="width:auto"> <span>Piekrītu <a href="../noteikumi/index.html">nomas noteikumiem</a>, ieskaitot 20% avansu un lietus pārcelšanu.</span></label>
-          <button class="btn" style="margin-top:0.8rem" type="submit">Nosūtīt rezervāciju</button>
-          <div class="panel hide" data-sent style="margin-top:0.8rem">
-            <p>Ja pasta programma neatvērās, nosūti pieteikumu ar vienu no saitēm.</p>
-            <p style="margin-top:0.5rem"><a class="mail" href="mailto:info@guppi.lv">Atvērt e-pastu</a> · <a class="wa" href="https://wa.me/37129886317">WhatsApp</a></p>
-          </div>
-        </div>
-      </div>
-      <aside class="panel" data-summary>
-        <p class="muted">Kopsavilkums</p>
-        <p class="display" style="font-size:1.5rem;margin-top:0.3rem" data-name></p>
-        <p style="display:flex;justify-content:space-between;margin-top:0.7rem"><span>Noma</span><span data-rental></span></p>
-        <p style="display:flex;justify-content:space-between;margin-top:0.35rem"><span>Piegāde</span><span data-delivery></span></p>
-        <p style="display:flex;justify-content:space-between;margin-top:0.35rem;font-weight:800"><span>Kopā</span><span data-total></span></p>
-        <p style="display:flex;justify-content:space-between;margin-top:0.35rem;font-weight:800"><span>Avanss 20%</span><span data-deposit></span></p>
-        <p style="display:flex;justify-content:space-between;margin-top:0.35rem"><span>Atlikums</span><span data-balance></span></p>
-        <p class="note" data-note></p>
-      </aside>
-    </form>
+    <p class="muted" style="margin-top:0.6rem;max-width:40rem">Izvēlies atrakciju, nomas ilgumu un brīvu dienu, tad pievieno grozam. Rezervāciju noformē grozā.</p>
+    <div class="booking" data-portal-booking="guppi" data-cart-href="../grozs/index.html"></div>
   </div></main>
   <footer class="foot">
     <div class="wrap foot-grid">
@@ -109,5 +64,6 @@
   </footer>
   <script src="../assets/data.js"></script>
   <script src="../assets/site.js"></script>
+  <script src="../assets/portal.js"></script>
 </body>
 </html>
