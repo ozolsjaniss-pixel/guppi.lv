@@ -1,5 +1,5 @@
 // Rezervāciju portāla adrese. Pirms palaišanas to maina tikai šeit.
-var PORTAL = "https://guppi-portal-demo.onrender.com"
+var PORTAL = "http://127.0.0.1:8787"
 var BUSINESS = "guppi"
 
 ;(function () {
@@ -62,7 +62,8 @@ var BUSINESS = "guppi"
   if (rating.length || count.length) {
     get("/api/v1/reviews?business=" + BUSINESS).then(function (reviews) {
       if (!reviews || typeof reviews.rating !== "number" || !whole(reviews.total) || !reviews.total) return
-      rating.forEach(function (span) { span.textContent = String(reviews.rating).replace(".", ",") })
+      var stars = reviews.rating % 1 ? String(reviews.rating) : reviews.rating.toFixed(1)
+      rating.forEach(function (span) { span.textContent = stars.replace(".", ",") })
       count.forEach(function (span) {
         var n = reviews.total
         var word = n % 10 === 1 && n % 100 !== 11 ? span.getAttribute("data-one") : span.getAttribute("data-many")
