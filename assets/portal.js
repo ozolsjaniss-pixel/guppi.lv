@@ -16,9 +16,16 @@ var BUSINESS = "guppi"
     return fetch(PORTAL + path).then(function (response) { return response.json() })
   }
   function whole(n) { return typeof n === "number" && n >= 0 && n % 1 === 0 }
-  function euro(cents) {
+  // Summu raksta pēc portāla iestatījumiem (Iestatījumi → Maksājumi). Portāls cenas jau noapaļo.
+  var MONEY = { symbol: "€", symbol_after: true, decimal: ",", thousands: " " }
+  function amount(cents) {
     var value = cents / 100
-    return (value % 1 ? value.toFixed(2).replace(".", ",") : String(value)) + " €"
+    var parts = (value % 1 ? value.toFixed(2) : String(value)).split(".")
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, MONEY.thousands === " " ? "\u00a0" : MONEY.thousands)
+    return parts.join(MONEY.decimal)
+  }
+  function money(cents) {
+    return MONEY.symbol_after ? amount(cents) + "\u00a0" + MONEY.symbol : MONEY.symbol + amount(cents)
   }
   function days(span, n) {
     if (n === 0) return span.getAttribute("data-zero")
@@ -40,15 +47,18 @@ var BUSINESS = "guppi"
   if (priced.length || deposit.length || balance.length) {
     get("/api/v1/catalog?business=" + BUSINESS).then(function (catalog) {
       var business = (catalog && catalog.business) || {}
+      var m = catalog.money || {}
+      if (typeof m.symbol === "string" && m.symbol) MONEY.symbol = m.symbol
+      if (typeof m.symbol_after === "boolean") MONEY.symbol_after = m.symbol_after
+      if (typeof m.decimal === "string" && m.decimal) MONEY.decimal = m.decimal
+      if (typeof m.thousands === "string") MONEY.thousands = m.thousands
       var items = {}
       ;(catalog.items || []).forEach(function (item) { items[item.slug] = item.from_cents })
       priced.forEach(function (span) {
         var cents = price(span.getAttribute("data-portal-price"), items)
         if (cents == null) return
-        var text = euro(cents)
-        // Diapazona sākumā (169–209 €) € zīmi neliekam.
-        if (!/€/.test(span.textContent)) text = text.replace(" €", "")
-        span.textContent = text
+        // Diapazona sākumā (169–209 €) valūtas zīmi neliekam.
+        span.textContent = /€/.test(span.textContent) ? money(cents) : amount(cents)
         var card = span.closest("[data-card]")
         if (card) card.setAttribute("data-price", String(cents / 100))
       })
