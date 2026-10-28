@@ -3,8 +3,8 @@
 
   function euro(value) {
     if (value == null) return "Apstiprināsim"
-    var has = Math.round(value * 100) % 100 !== 0
-    return new Intl.NumberFormat("lv-LV", { style: "currency", currency: "EUR", minimumFractionDigits: has ? 2 : 0, maximumFractionDigits: 2 }).format(value)
+    var text = Math.round(value * 100) % 100 !== 0 ? value.toFixed(2).replace(".", ",") : String(Math.round(value))
+    return text + "\u00a0EUR"
   }
   function delivery(raw) {
     var code = String(raw || "").replace(/\D/g, "")
@@ -75,14 +75,14 @@
       event.preventDefault()
       var amount = (gift.querySelector("input[name=amount]:checked") || {}).value || ""
       var body = [
-        "Dāvanu karte: " + amount + " €",
+        "Dāvanu karte: " + amount + " EUR",
         "Vārds: " + gift.name.value,
         "Tālrunis: " + gift.phone.value,
         "E-pasts: " + gift.email.value,
         "Saņēmējs: " + gift.recipient.value,
         "Vēlējums: " + gift.notes.value
       ].join("\n")
-      location.href = "mailto:" + data.email + "?subject=" + encodeURIComponent("Dāvanu karte " + amount + " €") + "&body=" + encodeURIComponent(body)
+      location.href = "mailto:" + data.email + "?subject=" + encodeURIComponent("Dāvanu karte " + amount + " EUR") + "&body=" + encodeURIComponent(body)
     })
   }
 })()
