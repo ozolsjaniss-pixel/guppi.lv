@@ -1,0 +1,3027 @@
+{
+ "platform": {
+  "name": "Portāls",
+  "url": "https://guppi-portal-demo.onrender.com",
+  "powered_label": "Darbina"
+ },
+ "lang": "lv",
+ "business": {
+  "slug": "guppi",
+  "name": "GUPPI.lv",
+  "legal_name": "SIA GUPPI.LV",
+  "reg_no": "40203532109",
+  "vat_no": "LV40203532109",
+  "address": "Vecauces iela 3A, Rīga, LV-1004",
+  "phone": "29886317",
+  "phone_intl": "+37129886317",
+  "email": "info@guppi.lv",
+  "whatsapp": "37129886317",
+  "instagram": "https://www.instagram.com/guppi.lv/"
+ },
+ "theme": {
+  "logo": "brand/logo.svg",
+  "primary": "#ae4a84",
+  "accent": "#f3a713",
+  "fonts_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Nunito:wght@800;900&display=swap"
+ },
+ "fallback": {
+  "deposit_percent": 20,
+  "balance_days": 3,
+  "rating": "4,99",
+  "review_count": 352
+ },
+ "words": {
+  "from": "no",
+  "free_days": "Brīvās dienas",
+  "per_day": "/ 1 diena",
+  "catalog": "Atrakcijas"
+ },
+ "nav": {
+  "main": [
+   {
+    "key": "atrakcijas",
+    "label": "Atrakcijas",
+    "href": "atrakcijas/index.html"
+   },
+   {
+    "key": "pasakumiem",
+    "label": "Pasākumiem",
+    "href": "pasakumiem/index.html"
+   },
+   {
+    "key": "ka-tas-notiek",
+    "label": "Kā tas notiek",
+    "href": "ka-tas-notiek/index.html"
+   },
+   {
+    "key": "piegade",
+    "label": "Piegāde",
+    "href": "piegade/index.html"
+   },
+   {
+    "key": "atsauksmes",
+    "label": "Atsauksmes",
+    "href": "atsauksmes/index.html"
+   },
+   {
+    "key": "par-mums",
+    "label": "Par mums",
+    "href": "par-mums/index.html"
+   }
+  ],
+  "more": [
+   {
+    "key": "padomi",
+    "label": "Padomi",
+    "href": "padomi/index.html"
+   },
+   {
+    "key": "kontakti",
+    "label": "Kontakti",
+    "href": "kontakti/index.html"
+   }
+  ],
+  "book": "Rezervēt",
+  "menu": "Izvēlne"
+ },
+ "footer": {
+  "about": "Piepūšamo atrakciju noma bērnu ballītēm Rīgā un Pierīgā. Atvedam, uzstādām un pēc svētkiem novācam.",
+  "social": [
+   {
+    "href": "https://www.instagram.com/guppi.lv/",
+    "label": "Instagram",
+    "icon": "insta"
+   },
+   {
+    "href": "https://wa.me/37129886317",
+    "label": "WhatsApp",
+    "icon": "chat"
+   },
+   {
+    "href": "mailto:info@guppi.lv",
+    "label": "E-pasts",
+    "icon": "mail"
+   }
+  ],
+  "columns": [
+   {
+    "title": "Atrakcijas",
+    "links": [
+     {
+      "label": "Visas atrakcijas",
+      "href": "atrakcijas/index.html"
+     },
+     {
+      "label": "Mega dinozauri",
+      "href": "atrakcijas/dinozauri/index.html"
+     },
+     {
+      "label": "Lauku sēta",
+      "href": "atrakcijas/lauku-seta/index.html"
+     },
+     {
+      "label": "Vienradzis",
+      "href": "atrakcijas/vienradzis/index.html"
+     },
+     {
+      "label": "Mega pirāti",
+      "href": "atrakcijas/pirati/index.html"
+     },
+     {
+      "label": "Pasākumu telts 3×6 m",
+      "href": "atrakcijas/pasakumu-telts-3x6/index.html"
+     }
+    ]
+   },
+   {
+    "title": "Uzzini vairāk",
+    "links": [
+     {
+      "label": "Kā tas notiek",
+      "href": "ka-tas-notiek/index.html"
+     },
+     {
+      "label": "Pasākumiem",
+      "href": "pasakumiem/index.html"
+     },
+     {
+      "label": "Piegāde",
+      "href": "piegade/index.html"
+     },
+     {
+      "label": "Padomi vecākiem",
+      "href": "padomi/index.html"
+     },
+     {
+      "label": "Atsauksmes",
+      "href": "atsauksmes/index.html"
+     },
+     {
+      "label": "Par mums",
+      "href": "par-mums/index.html"
+     },
+     {
+      "label": "Dāvanu karte",
+      "href": "davanu-karte/index.html"
+     }
+    ]
+   }
+  ],
+  "contact_title": "Sazināties",
+  "legal_lines": [
+   "{business.legal_name} · Reģ. nr. {business.reg_no}",
+   "PVN {business.vat_no}",
+   "{business.address}"
+  ],
+  "bottom": [
+   {
+    "label": "Nomas noteikumi",
+    "href": "noteikumi/index.html"
+   },
+   {
+    "label": "Privātums",
+    "href": "privatums/index.html"
+   },
+   {
+    "label": "Kontakti",
+    "href": "kontakti/index.html"
+   }
+  ],
+  "year": "2026"
+ },
+ "catalog": {
+  "title": "Piepūšamās atrakcijas bērnu ballītēm",
+  "intro": "Visas cenas ir ar PVN un ietver uzstādīšanu, pūtēju un novākšanu. Piegādi pieskaita pēc pasta indeksa.",
+  "search": "Meklēt, piemēram, vienradzis",
+  "search_label": "Meklēt atrakcijas",
+  "sort_label": "Kārtot",
+  "sort": [
+   {
+    "key": "kartiba",
+    "label": "Ieteiktās"
+   },
+   {
+    "key": "cena",
+    "label": "Cena, no zemākās"
+   },
+   {
+    "key": "laukums",
+    "label": "Mazākais laukums"
+   }
+  ],
+  "filters": [
+   {
+    "key": "visi",
+    "label": "Visas"
+   },
+   {
+    "key": "mazie",
+    "label": "Mazajiem"
+   },
+   {
+    "key": "klasika",
+    "label": "Klasika"
+   },
+   {
+    "key": "mega",
+    "label": "Lielā atrakcija"
+   },
+   {
+    "key": "udens",
+    "label": "Ar ūdeni"
+   },
+   {
+    "key": "telts",
+    "label": "Telts"
+   }
+  ],
+  "empty": "Nekas neatbilst šiem filtriem."
+ },
+ "item_page": {
+  "times": "Uzstādām līdz 12:00, novācam pēc 19:00.",
+  "guarantees": [
+   {
+    "icon": "truck",
+    "text": "Bezmaksas piegāde Mārupē un Āgenskalnā"
+   },
+   {
+    "icon": "check",
+    "text": "Pūtējs, pagarinātājs un pārsegs iekļauti"
+   },
+   {
+    "icon": "umbrella",
+    "text": "Lietus? Dienu pārceļam bez maksas"
+   },
+   {
+    "icon": "wallet",
+    "text": "Tikai {deposit}% avanss"
+   }
+  ],
+  "included": [
+   "Atrakcijas piegāde, uzstādīšana un novākšana",
+   "Gaisa pūtējs",
+   "Elektrības pagarinātājs 15 m",
+   "Pārsegs zem atrakcijas",
+   "Paklājs pie ieejas"
+  ],
+  "prepare": [
+   "Līdzenu laukumu atrakcijas izmērā",
+   "Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m",
+   "Vismaz 1,5 m platu piekļuvi līdz vietai",
+   "Pieaugušā uzraudzību visu nomas laiku"
+  ],
+  "included_title": "Cenā ir",
+  "prepare_title": "Sagatavo Tu",
+  "similar_title": "Līdzīgas atrakcijas",
+  "callout": {
+   "icon": "school",
+   "text": "Bērnudārzam, skolai vai uzņēmuma svētkiem? Palīdzēsim izvēlēties.",
+   "button": {
+    "label": "Pasākumiem",
+    "href": "pasakumiem/index.html",
+    "arrow": true
+   }
+  }
+ },
+ "item_order": [
+  "dinozauri",
+  "minecraft",
+  "lauku-seta",
+  "vienradzis",
+  "pirati",
+  "frozen-pils",
+  "roboti",
+  "kepu-patrula-movie",
+  "lego-movie-stafete",
+  "lola",
+  "pludmale-un-serfings",
+  "super-sonic",
+  "transformeri",
+  "lielie-minioni",
+  "supervaroni",
+  "vienradzitis",
+  "minioni",
+  "indians",
+  "ariel-narina",
+  "smurfi",
+  "barby",
+  "taurenitis",
+  "vienradzite",
+  "cucina-pepa",
+  "pasakumu-telts-3x6"
+ ],
+ "items": {
+  "dinozauri": {
+   "name": "Mega dinozauri",
+   "badge": "Lielā atrakcija",
+   "group": "mega",
+   "water": "ne",
+   "order": 1,
+   "summary": "Liela atrakcija ar lēcienu no augšas, šķēršļiem, batutu un slidkalniņu.",
+   "description": "Bērni var uzkāpt un lekt lejā uz mīksta nolaišanās maisa, tad iet šķēršļu joslu, batutu un slidkalniņu.",
+   "features": [
+    {
+     "icon": "smile",
+     "text": "Lēciens no augšas"
+    },
+    {
+     "icon": "flag",
+     "text": "Šķēršļu josla"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7,1 × 6 × 5,7 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "42,6 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7,1 × 6 × 5,7 m · 42,6 m²",
+   "area_sort": "42.6",
+   "card_alt": "Mega dinozauri piepūšamā atrakcija nomā",
+   "photos": [
+    "media/dinozauri/1.webp",
+    "media/dinozauri/2.webp",
+    "media/dinozauri/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 22300,
+   "similar": [
+    "minecraft",
+    "lauku-seta",
+    "pirati"
+   ],
+   "seo_title": "Mega dinozauri noma Rīgā | GUPPI",
+   "seo_description": "Liela atrakcija ar lēcienu no augšas, šķēršļiem, batutu un slidkalniņu."
+  },
+  "minecraft": {
+   "name": "Mega Minecraft",
+   "badge": "Lielā atrakcija",
+   "group": "mega",
+   "water": "ne",
+   "order": 2,
+   "summary": "Divi gari slidkalniņi un šķēršļu laukums bērniem no 5 gadiem.",
+   "description": "Divi gari slidkalniņi un šķēršļu bloki. Atrakcija ir augsta: 8 m, tāpēc pagalmam jābūt brīvam no zariem un vadiem.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Divi gari slidkalniņi"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 5 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "9 × 4,5 × 8 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "40,5 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 5 gadiem · 9 × 4,5 × 8 m · 40,5 m²",
+   "area_sort": "40.5",
+   "card_alt": "Mega Minecraft piepūšamā atrakcija nomā",
+   "photos": [
+    "media/minecraft/1.webp",
+    "media/minecraft/2.webp",
+    "media/minecraft/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 17500,
+   "similar": [
+    "dinozauri",
+    "lauku-seta",
+    "pirati"
+   ],
+   "seo_title": "Mega Minecraft noma Rīgā | GUPPI",
+   "seo_description": "Divi gari slidkalniņi un šķēršļu laukums bērniem no 5 gadiem."
+  },
+  "lauku-seta": {
+   "name": "Lauku sēta",
+   "badge": "Lielā atrakcija",
+   "group": "mega",
+   "water": "ne",
+   "order": 3,
+   "summary": "Liela tematiska atrakcija ar lēcienu siena kaudzē, batutu un slidkalniņu.",
+   "description": "Bērni kāpj un lec lejā mīkstā siena kaudzē, tad iet cauri šķēršļiem, batutam un slidkalniņam. Tā ir viena no atrakcijām, kas nodarbina dažādu vecumu vienlaikus. Vajag brīvu, līdzenu laukumu.",
+   "features": [
+    {
+     "icon": "smile",
+     "text": "Lēciens siena kaudzē"
+    },
+    {
+     "icon": "area",
+     "text": "Vairākas zonas"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "8 × 6 × 5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "48 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 8 × 6 × 5 m · 48 m²",
+   "area_sort": "48",
+   "card_alt": "Lauku sēta piepūšamā atrakcija nomā",
+   "photos": [
+    "media/lauku-seta/1.webp",
+    "media/lauku-seta/2.webp",
+    "media/lauku-seta/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 17500,
+   "similar": [
+    "dinozauri",
+    "minecraft",
+    "pirati"
+   ],
+   "seo_title": "Lauku sēta noma Rīgā | GUPPI",
+   "seo_description": "Liela tematiska atrakcija ar lēcienu siena kaudzē, batutu un slidkalniņu."
+  },
+  "vienradzis": {
+   "name": "Vienradzis",
+   "badge": "Ar ūdeni",
+   "group": "udens",
+   "water": "var",
+   "order": 4,
+   "summary": "Liela atrakcija ar diviem slidkalniņiem. Vasarā var pievienot ūdeni, vēsākā dienā lietot sausu.",
+   "description": "Divi paralēli slidkalniņi un baseins apakšā. Bez ūdens tā ir parasta lēkājamā atrakcija. Ar dārza šļūteni baseins kļūst par šļakatu zonu. Ūdenim vajag dārza pieslēgumu.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Divi slidkalniņi"
+    },
+    {
+     "icon": "drop",
+     "text": "Ar ūdeni vai bez"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "9 × 6 × 5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "54 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Var lietot ar ūdeni vai bez"
+    }
+   ],
+   "meta": "no 3 gadiem · 9 × 6 × 5 m · 54 m²",
+   "area_sort": "54",
+   "card_alt": "Vienradzis piepūšamā atrakcija nomā",
+   "photos": [
+    "media/vienradzis/2.webp",
+    "media/vienradzis/1.webp",
+    "media/vienradzis/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 14300,
+   "prepare": [
+    "Līdzenu laukumu atrakcijas izmērā",
+    "Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m",
+    "Vismaz 1,5 m platu piekļuvi līdz vietai",
+    "Pieaugušā uzraudzību visu nomas laiku",
+    "Dārza šļūteni, ja gribi ūdeni"
+   ],
+   "similar": [
+    "pludmale-un-serfings",
+    "super-sonic",
+    "dinozauri"
+   ],
+   "seo_title": "Vienradzis noma Rīgā | GUPPI",
+   "seo_description": "Liela atrakcija ar diviem slidkalniņiem. Vasarā var pievienot ūdeni, vēsākā dienā lietot sausu."
+  },
+  "pirati": {
+   "name": "Mega pirāti",
+   "badge": "Lielā atrakcija",
+   "group": "mega",
+   "water": "ne",
+   "order": 5,
+   "summary": "Viena no lielākajām atrakcijām: plats slidkalniņš, tornis un liela lēkājamā zona.",
+   "description": "Mega pirāti ir domāti ballītei ar daudz bērniem. Ir liels un mazs slidkalniņš, kāpšanas elementi, šķēršļi un plaša piezemēšanās. Vajag lielu, līdzenu pagalmu.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Lielākā trase"
+    },
+    {
+     "icon": "slide",
+     "text": "Plats slidkalniņš"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "8,5 × 6,5 × 6,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "55,3 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 8,5 × 6,5 × 6,5 m · 55,3 m²",
+   "area_sort": "55.3",
+   "card_alt": "Mega pirāti piepūšamā atrakcija nomā",
+   "photos": [
+    "media/pirati/1.webp",
+    "media/pirati/2.webp",
+    "media/pirati/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 20700,
+   "similar": [
+    "dinozauri",
+    "minecraft",
+    "lauku-seta"
+   ],
+   "seo_title": "Mega pirāti noma Rīgā | GUPPI",
+   "seo_description": "Viena no lielākajām atrakcijām: plats slidkalniņš, tornis un liela lēkājamā zona."
+  },
+  "frozen-pils": {
+   "name": "Frozen pils",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 6,
+   "summary": "Sausā pils ar divām rotaļu zonām, batutu un šķēršļiem.",
+   "description": "Frozen pils ir sausā atrakcija. Iekšpusē ir divas zonas, tāpēc bērni nav spiesti stāvēt vienā rindā pie viena slidkalniņa. Der ballītei, kur grib plašu lēkāšanu, nevis ūdeni.",
+   "features": [
+    {
+     "icon": "area",
+     "text": "Divas zonas"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7 × 7 × 4,9 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "49 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7 × 7 × 4,9 m · 49 m²",
+   "area_sort": "49",
+   "card_alt": "Frozen pils piepūšamā atrakcija nomā",
+   "photos": [
+    "media/frozen-pils/1.webp",
+    "media/frozen-pils/2.webp",
+    "media/frozen-pils/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 14300,
+   "similar": [
+    "roboti",
+    "kepu-patrula-movie",
+    "lola"
+   ],
+   "seo_title": "Frozen pils noma Rīgā | GUPPI",
+   "seo_description": "Sausā pils ar divām rotaļu zonām, batutu un šķēršļiem."
+  },
+  "roboti": {
+   "name": "Roboti",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 7,
+   "summary": "Trīs gari slidkalniņi, šķēršļi un liels batuts.",
+   "description": "Robotiem ir trīs slidkalniņi, tāpēc rinda kustas ātrāk nekā atrakcijā ar vienu nobraucienu. Klāt ir šķēršļu posmi un batuts. Tā ir augstāka atrakcija, pagalmam jābūt brīvam arī uz augšu.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Trīs slidkalniņi"
+    },
+    {
+     "icon": "slide",
+     "text": "Šķēršļu trase"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "8 × 5 × 6 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "40 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 8 × 5 × 6 m · 40 m²",
+   "area_sort": "40",
+   "card_alt": "Roboti piepūšamā atrakcija nomā",
+   "photos": [
+    "media/roboti/1.webp",
+    "media/roboti/2.webp",
+    "media/roboti/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 15100,
+   "similar": [
+    "frozen-pils",
+    "kepu-patrula-movie",
+    "lola"
+   ],
+   "seo_title": "Roboti noma Rīgā | GUPPI",
+   "seo_description": "Trīs gari slidkalniņi, šķēršļi un liels batuts."
+  },
+  "kepu-patrula-movie": {
+   "name": "Ķepu patruļa",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 8,
+   "summary": "Šķēršļu josla un garš slidkalniņš bērniem, kuri zina kucēnus vārdā.",
+   "description": "Batuta zona, mīksti šķēršļi, kāpšanas siena un garš slidkalniņš. Pietiek enerģijas visai pēcpusdienai, ja viesi ir jau diezgan droši uz kājām. Forma ir gara un šaurāka, tāpēc der pagalmā, kur ir garums, bet ne plats zāliens.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Garš slidkalniņš"
+    },
+    {
+     "icon": "flag",
+     "text": "Šķēršļu josla"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "8 × 4 × 4,9 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "32 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 8 × 4 × 4,9 m · 32 m²",
+   "area_sort": "32",
+   "card_alt": "Ķepu patruļa piepūšamā atrakcija nomā",
+   "photos": [
+    "media/kepu-patrula-movie/1.webp",
+    "media/kepu-patrula-movie/2.webp",
+    "media/kepu-patrula-movie/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 13500,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "lola"
+   ],
+   "seo_title": "Ķepu patruļa noma Rīgā | GUPPI",
+   "seo_description": "Šķēršļu josla un garš slidkalniņš bērniem, kuri zina kucēnus vārdā."
+  },
+  "lego-movie-stafete": {
+   "name": "Lego Movie",
+   "badge": "Lielā atrakcija",
+   "group": "mega",
+   "water": "ne",
+   "order": 9,
+   "summary": "Gara 12 metru šķēršļu trase ar slidkalniņu.",
+   "description": "Lego Movie ir gara, šaura trase: 12 × 3,5 m. Tā der pagalmā, kur ir garums gar žogu vai mājas sienu, bet nav plata zāliena. Bērni kāpj, pārvar šķēršļus un brauc lejā.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "12 m gara"
+    },
+    {
+     "icon": "slide",
+     "text": "Šaura trase"
+    },
+    {
+     "icon": "flag",
+     "text": "Šķēršļi"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "12 × 3,5 × 4,1 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "42 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 12 × 3,5 × 4,1 m · 42 m²",
+   "area_sort": "42",
+   "card_alt": "Lego Movie piepūšamā atrakcija nomā",
+   "photos": [
+    "media/lego-movie-stafete/1.webp",
+    "media/lego-movie-stafete/2.webp",
+    "media/lego-movie-stafete/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 16700,
+   "similar": [
+    "dinozauri",
+    "minecraft",
+    "lauku-seta"
+   ],
+   "seo_title": "Lego Movie noma Rīgā | GUPPI",
+   "seo_description": "Gara 12 metru šķēršļu trase ar slidkalniņu."
+  },
+  "lola": {
+   "name": "LOL",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 10,
+   "summary": "Plaša atrakcija ar mazu un lielu slidkalniņu, lai vienā ballītē satiekas dažāds vecums.",
+   "description": "Viens slidkalniņš ir zemāks, otrs garāks. Plašajā zonā ir kāpnes, šķēršļi un batuts, tāpēc bērni nav spiesti visu laiku stāvēt rindā.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Divi dažādi slidkalniņi"
+    },
+    {
+     "icon": "area",
+     "text": "Plaša zona"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7 × 6 × 4,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "42 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7 × 6 × 4,5 m · 42 m²",
+   "area_sort": "42",
+   "card_alt": "LOL piepūšamā atrakcija nomā",
+   "photos": [
+    "media/lola/1.webp",
+    "media/lola/2.webp",
+    "media/lola/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 15900,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "LOL noma Rīgā | GUPPI",
+   "seo_description": "Plaša atrakcija ar mazu un lielu slidkalniņu, lai vienā ballītē satiekas dažāds vecums."
+  },
+  "pludmale-un-serfings": {
+   "name": "Pludmale un sērfings",
+   "badge": "Ar ūdeni",
+   "group": "udens",
+   "water": "ja",
+   "order": 11,
+   "summary": "Ūdens atrakcija ar diviem slidkalniņiem un baseinu. No 12 gadiem.",
+   "description": "Divi paralēli slidkalniņi beidzas baseinā. Šī ir ūdens atrakcija, tai uz vietas vajag dārza ūdens pieslēgumu.",
+   "features": [
+    {
+     "icon": "drop",
+     "text": "Ūdens baseins"
+    },
+    {
+     "icon": "slide",
+     "text": "Divi slidkalniņi"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 12 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "8 × 6,5 × 5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "52 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Ūdens atrakcija"
+    }
+   ],
+   "meta": "no 12 gadiem · 8 × 6,5 × 5 m · 52 m²",
+   "area_sort": "52",
+   "card_alt": "Pludmale un sērfings piepūšamā atrakcija nomā",
+   "photos": [
+    "media/pludmale-un-serfings/1.webp",
+    "media/pludmale-un-serfings/2.webp",
+    "media/pludmale-un-serfings/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 21500,
+   "prepare": [
+    "Līdzenu laukumu atrakcijas izmērā",
+    "Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m",
+    "Vismaz 1,5 m platu piekļuvi līdz vietai",
+    "Pieaugušā uzraudzību visu nomas laiku",
+    "Dārza šļūteni, ja gribi ūdeni"
+   ],
+   "similar": [
+    "vienradzis",
+    "super-sonic",
+    "dinozauri"
+   ],
+   "seo_title": "Pludmale un sērfings noma Rīgā | GUPPI",
+   "seo_description": "Ūdens atrakcija ar diviem slidkalniņiem un baseinu. No 12 gadiem."
+  },
+  "super-sonic": {
+   "name": "Super Sonic",
+   "badge": "Ar ūdeni",
+   "group": "udens",
+   "water": "var",
+   "order": 12,
+   "summary": "Divi slidkalniņi un baseins. Darbojas gan sausā, gan ar ūdeni.",
+   "description": "Divi paralēli slidkalniņi ļauj braukt sacensībās. Apakšā ir baseins: vasarā ar ūdeni, citā laikā kā mīksta piezemēšanās. Ja gribi ūdeni, uz vietas vajag šļūteni.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Divi slidkalniņi"
+    },
+    {
+     "icon": "drop",
+     "text": "Baseins"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "9 × 6 × 5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "54 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Var lietot ar ūdeni vai bez"
+    }
+   ],
+   "meta": "no 3 gadiem · 9 × 6 × 5 m · 54 m²",
+   "area_sort": "54",
+   "card_alt": "Super Sonic piepūšamā atrakcija nomā",
+   "photos": [
+    "media/super-sonic/1.webp",
+    "media/super-sonic/2.webp",
+    "media/super-sonic/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 14300,
+   "prepare": [
+    "Līdzenu laukumu atrakcijas izmērā",
+    "Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m",
+    "Vismaz 1,5 m platu piekļuvi līdz vietai",
+    "Pieaugušā uzraudzību visu nomas laiku",
+    "Dārza šļūteni, ja gribi ūdeni"
+   ],
+   "similar": [
+    "vienradzis",
+    "pludmale-un-serfings",
+    "dinozauri"
+   ],
+   "seo_title": "Super Sonic noma Rīgā | GUPPI",
+   "seo_description": "Divi slidkalniņi un baseins. Darbojas gan sausā, gan ar ūdeni."
+  },
+  "transformeri": {
+   "name": "Transformeri",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 13,
+   "summary": "Liela šķēršļu atrakcija ar batutu un slidkalniņu.",
+   "description": "Transformeri ir enerģiskākā trase: kāpšana, šķēršļi, batuts un ātrs nobrauciens. Labi der ballītei, kur viesi ir jau skolas vecumā un grib kustību, nevis tikai mīkstu stūrīti.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Šķēršļu trase"
+    },
+    {
+     "icon": "smile",
+     "text": "Batuts"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7 × 6,2 × 5,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "43,4 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7 × 6,2 × 5,5 m · 43,4 m²",
+   "area_sort": "43.4",
+   "card_alt": "Transformeri piepūšamā atrakcija nomā",
+   "photos": [
+    "media/transformeri/1.webp",
+    "media/transformeri/2.webp",
+    "media/transformeri/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 16700,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Transformeri noma Rīgā | GUPPI",
+   "seo_description": "Liela šķēršļu atrakcija ar batutu un slidkalniņu."
+  },
+  "lielie-minioni": {
+   "name": "Lielie minioni",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 14,
+   "summary": "Lielāka minionu atrakcija ar kāpšanas sienu, batutu un slidkalniņu.",
+   "description": "Vairāk vietas nekā mazajiem Minioniem: batuts, kāpšanas siena, mīksti šķēršļi un slidkalniņš.",
+   "features": [
+    {
+     "icon": "smile",
+     "text": "Kāpšanas siena"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7 × 6 × 4,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "42 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7 × 6 × 4,5 m · 42 m²",
+   "area_sort": "42",
+   "card_alt": "Lielie minioni piepūšamā atrakcija nomā",
+   "photos": [
+    "media/lielie-minioni/1.webp",
+    "media/lielie-minioni/2.webp",
+    "media/lielie-minioni/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 15100,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Lielie minioni noma Rīgā | GUPPI",
+   "seo_description": "Lielāka minionu atrakcija ar kāpšanas sienu, batutu un slidkalniņu."
+  },
+  "supervaroni": {
+   "name": "Supervaroņi",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 15,
+   "summary": "Šķēršļu trase ar batutu un ātru slidkalniņu.",
+   "description": "Kāpšana, šķēršļi, liels batuts un slidkalniņš. Pietiek vietas ballītei, kur bērni jau droši skrien un kāpj.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Šķēršļu trase"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7 × 6 × 5,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "42 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7 × 6 × 5,5 m · 42 m²",
+   "area_sort": "42",
+   "card_alt": "Supervaroņi piepūšamā atrakcija nomā",
+   "photos": [
+    "media/supervaroni/1.webp",
+    "media/supervaroni/2.webp",
+    "media/supervaroni/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 16700,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Supervaroņi noma Rīgā | GUPPI",
+   "seo_description": "Šķēršļu trase ar batutu un ātru slidkalniņu."
+  },
+  "vienradzitis": {
+   "name": "Vienradzītis",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 16,
+   "summary": "Vidēja vienradža atrakcija ar batutu un slidkalniņu.",
+   "description": "Vienradzītis ir solis tālāk par mazo Vienradzīti: vairāk vietas lēkšanai un garāks slidkalniņš, bet joprojām pārskatāms pagalmam.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Batuts un slidkalniņš"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "6 × 5 × 4,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "30 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 6 × 5 × 4,5 m · 30 m²",
+   "area_sort": "30",
+   "card_alt": "Vienradzītis piepūšamā atrakcija nomā",
+   "photos": [
+    "media/vienradzitis/1.webp",
+    "media/vienradzitis/2.webp",
+    "media/vienradzitis/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 12700,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Vienradzītis noma Rīgā | GUPPI",
+   "seo_description": "Vidēja vienradža atrakcija ar batutu un slidkalniņu."
+  },
+  "minioni": {
+   "name": "Minioni",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 18,
+   "summary": "Batuts, šķēršļi un slidkalniņš kompaktākā minionu atrakcijā.",
+   "description": "Mazākā no divām minionu atrakcijām. Bērni kāpj, lēkā un brauc lejā, un rinda neveidojas tik gara kā pie viena šaura slidkalniņa lielā pasākumā.",
+   "features": [
+    {
+     "icon": "smile",
+     "text": "Batuts"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "6 × 5 × 5,7 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "30 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 6 × 5 × 5,7 m · 30 m²",
+   "area_sort": "30",
+   "card_alt": "Minioni piepūšamā atrakcija nomā",
+   "photos": [
+    "media/minioni/1.webp",
+    "media/minioni/2.webp",
+    "media/minioni/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 13500,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Minioni noma Rīgā | GUPPI",
+   "seo_description": "Batuts, šķēršļi un slidkalniņš kompaktākā minionu atrakcijā."
+  },
+  "indians": {
+   "name": "Indiāņi",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 19,
+   "summary": "Divi gari slidkalniņi, šķēršļi un batuts.",
+   "description": "Divi gari slidkalniņi nozīmē, ka bērni var braukt reizē. Pa ceļam ir šķēršļi un batuta zona.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Divi slidkalniņi"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "6 × 5 × 5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "30 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 6 × 5 × 5 m · 30 m²",
+   "area_sort": "30",
+   "card_alt": "Indiāņi piepūšamā atrakcija nomā",
+   "photos": [
+    "media/indians/1.webp",
+    "media/indians/2.webp",
+    "media/indians/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 15100,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Indiāņi noma Rīgā | GUPPI",
+   "seo_description": "Divi gari slidkalniņi, šķēršļi un batuts."
+  },
+  "ariel-narina": {
+   "name": "Ariel nāriņa",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 20,
+   "summary": "Sausā atrakcija ar batutu, šķēršļiem un slidkalniņu.",
+   "description": "Ariel ir vidēja izmēra atrakcija: kāpšana, batuts un slidkalniņš. Tā nav ūdens atrakcija, tāpēc der arī vēsākā dienā.",
+   "features": [
+    {
+     "icon": "smile",
+     "text": "Batuts"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "7 × 6 × 4,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "42 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 7 × 6 × 4,5 m · 42 m²",
+   "area_sort": "42",
+   "card_alt": "Ariel nāriņa piepūšamā atrakcija nomā",
+   "photos": [
+    "media/ariel-narina/1.webp",
+    "media/ariel-narina/2.webp",
+    "media/ariel-narina/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 12700,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Ariel nāriņa noma Rīgā | GUPPI",
+   "seo_description": "Sausā atrakcija ar batutu, šķēršļiem un slidkalniņu."
+  },
+  "smurfi": {
+   "name": "Smurfi",
+   "badge": "Klasika",
+   "group": "klasika",
+   "water": "ne",
+   "order": 22,
+   "summary": "Divi nelieli slidkalniņi un batuts bērniem, kuri grib kustēties, bet vēl ne lielo trasi.",
+   "description": "Divi slidkalniņi nozīmē īsāku rindu. Bērni kāpj, izlien cauri mīkstiem šķēršļiem un lejā brauc divatā.",
+   "features": [
+    {
+     "icon": "slide",
+     "text": "Divi slidkalniņi"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "6 × 6 × 4 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "36 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 6 × 6 × 4 m · 36 m²",
+   "area_sort": "36",
+   "card_alt": "Smurfi piepūšamā atrakcija nomā",
+   "photos": [
+    "media/smurfi/1.webp",
+    "media/smurfi/2.webp",
+    "media/smurfi/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 11900,
+   "similar": [
+    "frozen-pils",
+    "roboti",
+    "kepu-patrula-movie"
+   ],
+   "seo_title": "Smurfi noma Rīgā | GUPPI",
+   "seo_description": "Divi nelieli slidkalniņi un batuts bērniem, kuri grib kustēties, bet vēl ne lielo trasi."
+  },
+  "barby": {
+   "name": "Bārbija",
+   "badge": "Mazajiem",
+   "group": "mazie",
+   "water": "ne",
+   "order": 24,
+   "summary": "Rozā, kompakta atrakcija ar batutu un slidkalniņu.",
+   "description": "Bārbija ir neliela atrakcija ar kāpšļiem, batuta zonu un vienu slidkalniņu. Tā labi nosedz ballīti, kur pagalms ir vidējs un viesi ir pirmsskolas vecumā.",
+   "features": [
+    {
+     "icon": "area",
+     "text": "Kompakta"
+    },
+    {
+     "icon": "slide",
+     "text": "Batuts un slidkalniņš"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "5 × 4 × 3,5 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "20 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 5 × 4 × 3,5 m · 20 m²",
+   "area_sort": "20",
+   "card_alt": "Bārbija piepūšamā atrakcija nomā",
+   "photos": [
+    "media/barby/1.webp",
+    "media/barby/2.webp",
+    "media/barby/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 11900,
+   "similar": [
+    "taurenitis",
+    "vienradzite",
+    "cucina-pepa"
+   ],
+   "seo_title": "Bārbija noma Rīgā | GUPPI",
+   "seo_description": "Rozā, kompakta atrakcija ar batutu un slidkalniņu."
+  },
+  "taurenitis": {
+   "name": "Taurenītis",
+   "badge": "Mazajiem",
+   "group": "mazie",
+   "water": "ne",
+   "order": 30,
+   "summary": "Neliela, mierīga atrakcija pirmajām ballītēm un pašiem mazākajiem viesiem.",
+   "description": "Taurenītis ir domāts bērniem, kuriem lielā šķēršļu trase vēl ir par augstu. Mīksti šķēršļi, zems batuts un lēzens slidkalniņš ļauj rotaļāties vecāku tuvumā. Aizņem ap 5,2 × 4 m, tāpēc der arī šaurākā piemājas dārzā.",
+   "features": [
+    {
+     "icon": "kids",
+     "text": "Pirmajām ballītēm"
+    },
+    {
+     "icon": "slide",
+     "text": "Lēzens slidkalniņš"
+    },
+    {
+     "icon": "home",
+     "text": "Šaurākam pagalmam"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "5,2 × 4 × 4 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "20,8 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 5,2 × 4 × 4 m · 20,8 m²",
+   "area_sort": "20.8",
+   "card_alt": "Taurenītis piepūšamā atrakcija nomā",
+   "photos": [
+    "media/taurenitis/1.webp",
+    "media/taurenitis/2.webp",
+    "media/taurenitis/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 10300,
+   "similar": [
+    "barby",
+    "vienradzite",
+    "cucina-pepa"
+   ],
+   "seo_title": "Taurenītis noma Rīgā | GUPPI",
+   "seo_description": "Neliela, mierīga atrakcija pirmajām ballītēm un pašiem mazākajiem viesiem."
+  },
+  "vienradzite": {
+   "name": "Vienradzīte",
+   "badge": "Mazajiem",
+   "group": "mazie",
+   "water": "ne",
+   "order": 31,
+   "summary": "Maza vienradža atrakcija bērniem, kuriem šī ir viena no pirmajām lielajām ballītēm.",
+   "description": "Zems slieksnis, neliels batuts un lēzens slidkalniņš. Nav augstu kāpņu, tāpēc mazie var kustēties paši, kamēr pieaugušais paliek blakus. Der dārza ballītei, kur viesu nav daudz un pagalms nav liels.",
+   "features": [
+    {
+     "icon": "smile",
+     "text": "Zemas kāpnes"
+    },
+    {
+     "icon": "home",
+     "text": "Mazam pagalmam"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "5,2 × 4 × 4 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "20,8 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 5,2 × 4 × 4 m · 20,8 m²",
+   "area_sort": "20.8",
+   "card_alt": "Vienradzīte piepūšamā atrakcija nomā",
+   "photos": [
+    "media/vienradzite/1.webp",
+    "media/vienradzite/2.webp",
+    "media/vienradzite/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 10300,
+   "similar": [
+    "barby",
+    "taurenitis",
+    "cucina-pepa"
+   ],
+   "seo_title": "Vienradzīte noma Rīgā | GUPPI",
+   "seo_description": "Maza vienradža atrakcija bērniem, kuriem šī ir viena no pirmajām lielajām ballītēm."
+  },
+  "cucina-pepa": {
+   "name": "Cūciņa Pepa",
+   "badge": "Mazajiem",
+   "group": "mazie",
+   "water": "ne",
+   "order": 32,
+   "summary": "Kompakta atrakcija pašiem mazākajiem viesiem ar vienu mīkstu slidkalniņu.",
+   "description": "Pepa ir mierīgāks temps: kāpšana, nelieli šķēršļi, batuts un īss slidkalniņš. Labi der ballītei, kur lielākā daļa bērnu vēl ir bērnudārza vecumā.",
+   "features": [
+    {
+     "icon": "kids",
+     "text": "Maziem bērniem"
+    },
+    {
+     "icon": "slide",
+     "text": "Viens slidkalniņš"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "no 3 gadiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "5 × 4 × 3,3 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "20 m²"
+    },
+    {
+     "icon": "drop",
+     "label": "Ūdens",
+     "value": "Sausā atrakcija"
+    }
+   ],
+   "meta": "no 3 gadiem · 5 × 4 × 3,3 m · 20 m²",
+   "area_sort": "20",
+   "card_alt": "Cūciņa Pepa piepūšamā atrakcija nomā",
+   "photos": [
+    "media/cucina-pepa/1.webp",
+    "media/cucina-pepa/2.webp",
+    "media/cucina-pepa/3.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 10300,
+   "similar": [
+    "barby",
+    "taurenitis",
+    "vienradzite"
+   ],
+   "seo_title": "Cūciņa Pepa noma Rīgā | GUPPI",
+   "seo_description": "Kompakta atrakcija pašiem mazākajiem viesiem ar vienu mīkstu slidkalniņu."
+  },
+  "pasakumu-telts-3x6": {
+   "name": "Pasākumu telts 3×6 m",
+   "badge": "Telts",
+   "group": "telts",
+   "water": "ne",
+   "order": 40,
+   "summary": "18 m² telts galdam, ēnai un lietum blakus atrakcijai vai bez tās.",
+   "description": "Telts ir 3 × 6 m, 18 m². Tā dod ēnu saulē un jumtu, ja uznāk lietus. Zem tās var novietot galdu un krēslus. Telts nav piepūšamā atrakcija. To vedam, uzstādām un pēc pasākuma novācam.",
+   "features": [
+    {
+     "icon": "umbrella",
+     "text": "Ēna un lietus"
+    },
+    {
+     "icon": "users",
+     "text": "Galdam un viesiem"
+    }
+   ],
+   "specs": [
+    {
+     "icon": "kids",
+     "label": "Vecums",
+     "value": "viesiem"
+    },
+    {
+     "icon": "size",
+     "label": "Izmērs",
+     "value": "6 × 3 m"
+    },
+    {
+     "icon": "area",
+     "label": "Laukums",
+     "value": "18 m²"
+    }
+   ],
+   "meta": "viesiem · 6 × 3 m · 18 m²",
+   "area_sort": "18",
+   "card_alt": "Pasākumu telts 3×6 m piepūšamā atrakcija nomā",
+   "photos": [
+    "media/pasakumu-telts-3x6/1.webp",
+    "media/pasakumu-telts-3x6/2.webp"
+   ],
+   "card_photo": 0,
+   "from_cents": 7600,
+   "guarantees": [
+    {
+     "icon": "truck",
+     "text": "Bezmaksas piegāde Mārupē un Āgenskalnā"
+    },
+    {
+     "icon": "check",
+     "text": "Uzstādīšana un novākšana iekļauta"
+    },
+    {
+     "icon": "umbrella",
+     "text": "Lietus? Dienu pārceļam bez maksas"
+    },
+    {
+     "icon": "wallet",
+     "text": "Tikai {deposit}% avanss"
+    }
+   ],
+   "similar": [
+    "dinozauri",
+    "minecraft",
+    "lauku-seta"
+   ],
+   "seo_title": "Pasākumu telts 3×6 m noma Rīgā | GUPPI",
+   "seo_description": "18 m² telts galdam, ēnai un lietum blakus atrakcijai vai bez tās."
+  }
+ },
+ "articles_page": {
+  "title": "Padomi vecākiem",
+  "crumb": "Padomi"
+ },
+ "articles": {
+  "ka-izveleties-atrakciju": {
+   "title": "Kā izvēlēties piepūšamo atrakciju bērnu ballītei",
+   "date": "2026-08-12",
+   "minutes": "6 min",
+   "summary": "Vecums, pagalma izmērs un tas, vai vajag ūdeni. Īss ceļvedis, pirms rezervē atrakciju Rīgā vai Pierīgā.",
+   "read_time": "6 min lasīšanai",
+   "seo_title": "Kā izvēlēties piepūšamo atrakciju bērnu ballītei | GUPPI",
+   "seo_description": "Vecums, pagalma izmērs un tas, vai vajag ūdeni. Īss ceļvedis, pirms rezervē atrakciju Rīgā vai Pierīgā.",
+   "body": [
+    {
+     "p": "Lielākā kļūda ir izvēlēties atrakciju pēc bildes, nevis pēc tā, kas ballītē būs klāt. Trīs lietas izšķir gandrīz visu: jaunākā bērna vecums, brīvais laukums pagalmā un tas, vai gribi ūdeni."
+    },
+    {
+     "h2": "Sāc ar vecumu"
+    },
+    {
+     "p": "Ja ballītē ir bērni ap trim gadiem, skaties mazās atrakcijas: Taurenīti, Vienradzīti, Cūciņu Pepu vai Bārbiju. Tām ir zemākas kāpnes un īsāks slidkalniņš. Lielā šķēršļu trase šajā vecumā bieži nozīmē, ka pieaugušais visu laiku stāv iekšā un palīdz."
+    },
+    {
+     "p": "No pieciem gadiem jau labi strādā Robotu trīs slidkalniņi, Ķepu patruļa, Minecraft un Lauku sēta. Pludmale un sērfings ir ūdens atrakcija no 12 gadiem, nevis mazajiem."
+    },
+    {
+     "h2": "Izmēri pagalmu, nevis tikai zālienu"
+    },
+    {
+     "p": "Atrakcijas izmērs kartītē ir pašas konstrukcijas izmērs. Lego Movie ir 12 metrus gara un tikai 3,5 metrus plata, tāpēc tā ielien gar žogu. Mega pirātiem vajag 8,5 × 6,5 m brīvu laukumu. Minecraft ir 8 metrus augsta: pārbaudi zarus un vadus."
+    },
+    {
+     "p": "Līdz vietai jābūt vismaz 1,5 m platai piekļuvei. Ja vārti ir šaurāki, pasaki to rezervācijā, pirms vedam."
+    },
+    {
+     "h2": "Ūdens nav obligāts"
+    },
+    {
+     "p": "Vienradzis un Super Sonic darbojas gan sausi, gan ar ūdeni. Ūdenim vajag dārza šļūteni. Frozen pils, LOL un lielākā daļa pārējo ir sausās atrakcijas, tām ūdens pieslēgums nav vajadzīgs."
+    },
+    {
+     "p": "Ja nezini, kuru ņemt, uzraksti bērnu vecumu un pagalma izmēru uz 29886317. Tas aizņem mazāk laika nekā nepareiza atrakcija ballītes rītā."
+    }
+   ]
+  },
+  "ka-sagatavot-vietu": {
+   "title": "Kā sagatavot vietu piepūšamajai atrakcijai",
+   "date": "2026-07-02",
+   "minutes": "5 min",
+   "summary": "Ko pagalmam jābūt gatavam pirms uzstādīšanas: elektrība, piekļuve, laukums un ūdens, ja atrakcija to prasa.",
+   "read_time": "5 min lasīšanai",
+   "seo_title": "Kā sagatavot vietu piepūšamajai atrakcijai | GUPPI",
+   "seo_description": "Ko pagalmam jābūt gatavam pirms uzstādīšanas: elektrība, piekļuve, laukums un ūdens, ja atrakcija to prasa.",
+   "body": [
+    {
+     "p": "Uzstādīšana aizņem maz laika, ja vieta ir sagatavota. Lielākā daļa aizkavēšanos ir šauru vārtu, aizņemta zāliena vai rozetes dēļ, kas ir pārāk tālu."
+    },
+    {
+     "h2": "Laukums"
+    },
+    {
+     "p": "Zem atrakcijas jābūt līdzenam. Mauriņš, bruģis vai cieta zeme der. Nevajag bedres, celmus un asus priekšmetus. Mēs liekam pārsegu apakšā, bet tas nelabo slīpu vai akmeņainu virsmu."
+    },
+    {
+     "p": "Atstāj brīvu tieši to platību, kas rakstīta pie atrakcijas. Krēslus un galdu novieto malā, nevis atrakcijas vidū."
+    },
+    {
+     "h2": "Elektrība"
+    },
+    {
+     "p": "Vajag parastu rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 metriem. Komplektā ir 15 m pagarinātājs un gaisa pūtējs. Pūtējs strādā visu ballītes laiku, to nedrīkst izslēgt, kamēr bērni ir iekšā."
+    },
+    {
+     "h2": "Piekļuve un ūdens"
+    },
+    {
+     "p": "Celiņam no ielas vai vārtiem līdz laukumam jābūt vismaz 1,5 m platam. Ja atrakcija ir ar ūdeni un gribi šļakatus, sagatavo dārza šļūteni. Sausajām atrakcijām ūdens nav vajadzīgs."
+    },
+    {
+     "p": "Uzstādām līdz plkst. 12:00, novācam pēc plkst. 19:00. Ja ballīte sākas agrāk vai beidzas vēlāk, ieraksti to piezīmēs."
+    }
+   ]
+  },
+  "lietus-garantija": {
+   "title": "Ko darām, ja ballītes dienā līst",
+   "date": "2026-06-18",
+   "minutes": "4 min",
+   "summary": "GUPPI lietus noteikums: pārcelt, atcelt bez avansa zaudēšanas vai atvest atrakciju agrāk, ja diena ir brīva.",
+   "read_time": "4 min lasīšanai",
+   "seo_title": "Ko darām, ja ballītes dienā līst | GUPPI",
+   "seo_description": "GUPPI lietus noteikums: pārcelt, atcelt bez avansa zaudēšanas vai atvest atrakciju agrāk, ja diena ir brīva.",
+   "body": [
+    {
+     "p": "Latvijā ballīti nevar saplānot pret prognozi. Tāpēc lietus un vētra nav iemesls zaudēt avansu."
+    },
+    {
+     "h2": "Trīs iespējas"
+    },
+    {
+     "p": "Pārceļam uz citu brīvu dienu. Atceļam un avansu atdodam. Vai, ja atrakcija iepriekšējā dienā ir brīva, atvedam to vakarā un novācam vēlāk, kad lietus mitējas. Lietus laikā atrakciju nelieto."
+    },
+    {
+     "p": "Sausās atrakcijas lietū vienkārši stāv tukšas. Ūdens atrakcijas lietū kļūst slidenākas, tāpēc arī tās šādā dienā nelietojam, kamēr virsma nav droša."
+    },
+    {
+     "h2": "Kad rakstīt"
+    },
+    {
+     "p": "Ja prognoze no rīta ir slikta, zvani vai raksti WhatsApp uz 29886317, nevis gaidi, kamēr viesi jau ir klāt. Jo agrāk zinām, jo vieglāk ielikt citu dienu kalendārā."
+    },
+    {
+     "p": "Telts 3×6 m ir atsevišķs risinājums galdam un ēnai. Tā neliedz lietus noteikumu pašai atrakcijai, bet dod vietu, kur pasēdēt, ja debesis ir pelēkas, nevis pilnīgi slapjas."
+    }
+   ]
+  },
+  "cik-maksa-bernu-ballite": {
+   "title": "Cik maksā bērnu ballīte ar piepūšamo atrakciju",
+   "date": "2026-05-09",
+   "minutes": "5 min",
+   "summary": "No kā sastāv cena: noma, dienu skaits, piegāde, {deposit}% avanss un darba dienas atlaide.",
+   "read_time": "5 min lasīšanai",
+   "seo_title": "Cik maksā bērnu ballīte ar piepūšamo atrakciju | GUPPI",
+   "seo_description": "No kā sastāv cena: noma, dienu skaits, piegāde, 20% avanss un darba dienas atlaide.",
+   "body": [
+    {
+     "p": "Atrakcijas cenā jau ir piegāde izvēlētajā zonā, uzstādīšana, pūtējs, pagarinātājs, pārsegs un novākšana. Atsevišķi nemaksā par “servisu”."
+    },
+    {
+     "h2": "Nomas cena"
+    },
+    {
+     "p": "Viena diena mazajām atrakcijām sākas no {price:min:barby,taurenitis,vienradzite,cucina-pepa}. Vidējās ir no {price:min:frozen-pils,roboti,kepu-patrula-movie,lola,transformeri,lielie-minioni,supervaroni,vienradzitis,minioni,indians,ariel-narina,smurfi}. Lielās, piemēram, Mega pirāti un Mega dinozauri, ir no {price:pirati}. Pludmale un sērfings ir no {price:pludmale-un-serfings}. Pasākumu telts ir no {price:pasakumu-telts-3x6}. Cenas “no” ir darba dienām (P–C); precīzu cenu katrai dienai redzi kalendārā."
+    },
+    {
+     "p": "Otrā un trešā diena ir lētāka nekā pilna cena reizināta ar dienu skaitu. Trīs dienas ir ērti, ja ballīte ir piektdienas vakarā un atrakciju gribi jau no piektdienas rīta līdz svētdienai."
+    },
+    {
+     "h2": "Piegāde un avanss"
+    },
+    {
+     "p": "Mārupē, Jaunmārupē, Babītē, Piņķos, Rāmavā, Āgenskalnā un Bieriņos piegāde ir 0 €. Citur Rīgā orientējoši 20 €, tuvajā Pierīgā 25 €, tālāk Pierīgā 45 €. Ja pasta indekss nav zonu sarakstā, cenu apstiprinām pirms rēķina."
+    },
+    {
+     "p": "Rezervācijai pietiek ar {deposit}% avansu. Atlikums jāsamaksā {balance:svētkiem|svētku dienā}. Darba dienās, no pirmdienas līdz ceturtdienai, ir atlaide. Tā ir redzama kalendārā, kods nav vajadzīgs."
+    }
+   ]
+  }
+ },
+ "legal": {
+  "terms": {
+   "title": "Nomas noteikumi",
+   "body": [
+    {
+     "p": "Nomu sniedz {business.legal_name}, reģ. nr. {business.reg_no}, {business.address}. Rezervācija ir pieteikums. To apstiprinām, kad ir zināma adrese un piegādes maksa."
+    },
+    {
+     "h2": "Cena un samaksa"
+    },
+    {
+     "p": "Cenā ir atrakcijas noma izvēlētajam dienu skaitam un piegāde pēc zonas. Avanss ir {deposit}%. Atlikumu samaksā ne vēlāk kā {balance:pirmās nomas dienas|pirmajā nomas dienā}. Rēķinu sūtām uz e-pastu."
+    },
+    {
+     "h2": "Kas ir cenā"
+    },
+    {
+     "ul": [
+      "Atrakcijas piegāde, uzstādīšana un novākšana",
+      "Gaisa pūtējs",
+      "Elektrības pagarinātājs 15 m",
+      "Pārsegs zem atrakcijas",
+      "Paklājs pie ieejas"
+     ]
+    },
+    {
+     "h2": "Ko nodrošina klients"
+    },
+    {
+     "ul": [
+      "Līdzenu laukumu atrakcijas izmērā",
+      "Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m",
+      "Vismaz 1,5 m platu piekļuvi līdz vietai",
+      "Pieaugušā uzraudzību visu nomas laiku"
+     ]
+    },
+    {
+     "p": "Ūdens atrakcijām, ja tās lieto ar ūdeni, vajag dārza ūdens pieslēgumu."
+    },
+    {
+     "h2": "Laiki"
+    },
+    {
+     "p": "Uzstādīšana piegādes dienā līdz plkst. 12:00. Novākšana pēc plkst. 19:00."
+    },
+    {
+     "h2": "Lietus un atcelšana"
+    },
+    {
+     "p": "Lietus vai vētras dēļ nomas dienu var pārcelt vai atcelt. Šādā gadījumā avansu atdodam. Citos gadījumos atcelšana vismaz 3 dienas pirms nomas tiek atgriezta. Vēlāk avansu paturam."
+    },
+    {
+     "h2": "Drošība"
+    },
+    {
+     "p": "Atrakcijas atbilst EN 14960. Ballītes laikā bērniem jābūt pieaugušā uzraudzībā. Pūtēju nedrīkst izslēgt, kamēr kāds ir atrakcijā. Publiskiem pasākumiem, skolām un bērnudārziem zvaniet {business.phone}."
+    }
+   ]
+  },
+  "privacy": {
+   "title": "Privātums",
+   "body": [
+    {
+     "p": "Pārzinis ir {business.legal_name}, {business.address}, {business.email}, {business.phone}."
+    },
+    {
+     "p": "Rezervācijā prasām vārdu, tālruni, e-pastu, piegādes adresi un piezīmes par pasākumu. Šos datus lietojam, lai piegādātu atrakciju, izrakstītu rēķinu un sazinātos par laiku."
+    },
+    {
+     "p": "Datus glabājam tik ilgi, cik vajag grāmatvedībai, ne ilgāk par 5 gadiem pēc nomas, ja likums neprasa citādi. Datus nenododam reklāmas tīkliem."
+    },
+    {
+     "p": "Vari prasīt piekļuvi, labošanu vai dzēšanu, rakstot uz {business.email}. Sūdzību var iesniegt Datu valsts inspekcijā."
+    }
+   ]
+  }
+ },
+ "pages": {
+  "index.html": {
+   "kind": "sections",
+   "nav": "",
+   "seo_title": "Piepūšamās atrakcijas Rīgā un Pierīgā | GUPPI",
+   "seo_description": "Jaunas, tīras piepūšamās atrakcijas bērnu ballītēm. Piegāde, uzstādīšana un novākšana Rīgā un Pierīgā.",
+   "sections": [
+    {
+     "type": "hero",
+     "on": true,
+     "sticker": "Prieks bērniem, miers vecākiem",
+     "title": "Piepūšamo atrakciju noma",
+     "title_highlight": "Rīgā un Pierīgā!",
+     "lead": "Jaunas, tīras un drošas atrakcijas bērnu ballītēm. Atvedam līdz 12:00, uzstādām un pēc svētkiem novācam — Tev atliek tikai svinēt.",
+     "buttons": [
+      {
+       "label": "Izvēlēties atrakciju",
+       "href": "atrakcijas/index.html",
+       "arrow": true
+      },
+      {
+       "label": "Kā tas notiek?",
+       "href": "ka-tas-notiek/index.html",
+       "style": "ghost"
+      }
+     ],
+     "photos": [
+      {
+       "src": "media/lauku-seta/1.webp",
+       "alt": "Lauku sētas atrakcija uzstādīta pagalmā",
+       "caption": "Lauku sēta"
+      },
+      {
+       "src": "media/vienradzis/2.webp",
+       "alt": "Vienradža atrakcija ar diviem slidkalniņiem",
+       "caption": "Vienradzis"
+      },
+      {
+       "src": "media/pirati/1.webp",
+       "alt": "Mega pirātu atrakcija",
+       "caption": "Mega pirāti"
+      }
+     ],
+     "badge_top": "Lietus?",
+     "badge_bottom": "Pārceļam!",
+     "ticket": "Atrakcijas no {price:min:ariel-narina,barby,cucina-pepa,dinozauri,frozen-pils,indians,kepu-patrula-movie,lauku-seta,lego-movie-stafete,lielie-minioni,lola,minecraft,minioni,pirati,pludmale-un-serfings,roboti,smurfi,super-sonic,supervaroni,taurenitis,transformeri,vienradzis,vienradzite,vienradzitis}",
+     "trust": [
+      {
+       "cls": "t-rating",
+       "icon": "star",
+       "title": "{rating} ★★★★★",
+       "note": "no {reviews:atsauksmes|atsauksmēm} Google"
+      },
+      {
+       "cls": "t-safe",
+       "icon": "shield",
+       "title": "Drošas un sertificētas",
+       "note": "Atbilst ES drošības standartam EN 14960"
+      },
+      {
+       "cls": "t-pay",
+       "icon": "wallet",
+       "title": "Tikai {deposit}% avanss",
+       "note": "Atlikumu maksā {balance:svētkiem|svētku dienā}"
+      }
+     ]
+    },
+    {
+     "type": "ticker",
+     "on": true,
+     "label": "Mūsu solījumi",
+     "items": [
+      {
+       "icon": "truck",
+       "text": "Bezmaksas piegāde Mārupē un Āgenskalnā"
+      },
+      {
+       "icon": "umbrella",
+       "text": "Lietus? Pārceļam bez maksas"
+      },
+      {
+       "icon": "wallet",
+       "text": "Tikai 20% avanss"
+      },
+      {
+       "icon": "shield",
+       "text": "Drošas, sertificētas atrakcijas"
+      },
+      {
+       "icon": "clock",
+       "text": "Uzstādām līdz 12:00"
+      },
+      {
+       "icon": "sparkle",
+       "text": "Tīrām pirms katras nomas"
+      },
+      {
+       "icon": "calendar",
+       "text": "Rezervē tiešsaistē 24/7"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "on": true,
+     "items": [
+      {
+       "icon": "search",
+       "title": "Izvēlies atrakciju",
+       "text": "Redzi izmēru, vecumu un cenu par 1, 2 vai 3 dienām."
+      },
+      {
+       "icon": "calendar",
+       "title": "Atver kalendāru",
+       "text": "Brīvās dienas un cenas — uzreiz blakus aprakstam."
+      },
+      {
+       "icon": "heart",
+       "title": "Svini!",
+       "text": "Avanss {deposit}%. Atvedam, uzstādām un novācam paši."
+      }
+     ]
+    },
+    {
+     "eyebrow": "Populārākās",
+     "eyebrow_icon": "star",
+     "title": "Atrakcijas, ko vedam visbiežāk",
+     "sub": "Cenas ar PVN. Piegāde, uzstādīšana un novākšana ir iekļauta.",
+     "more": {
+      "label": "Visas 25 atrakcijas",
+      "href": "atrakcijas/index.html"
+     },
+     "type": "popular",
+     "on": true,
+     "items": [
+      "dinozauri",
+      "minecraft",
+      "lauku-seta",
+      "vienradzis",
+      "pirati",
+      "frozen-pils"
+     ]
+    },
+    {
+     "eyebrow": "Jebkuriem svētkiem",
+     "eyebrow_icon": "gift",
+     "title": "Kādiem svētkiem meklē?",
+     "more": {
+      "label": "Visi pasākumi",
+      "href": "pasakumiem/index.html"
+     },
+     "type": "occasions",
+     "on": true,
+     "go": "Uzzināt",
+     "items": [
+      {
+       "icon": "cake",
+       "title": "Dzimšanas diena",
+       "text": "Pagalmā vai dārzā — gaviļnieks un draugi lēkā visu dienu.",
+       "href": "pasakumiem/index.html#dzimsanas-diena"
+      },
+      {
+       "icon": "school",
+       "title": "Bērnudārzs un skola",
+       "text": "Izlaidums, sporta diena vai rudens svētki visai grupai.",
+       "href": "pasakumiem/index.html#bernudarzi-un-skolas"
+      },
+      {
+       "icon": "briefcase",
+       "title": "Uzņēmuma svētki",
+       "text": "Ģimenes diena kolektīvam — bērniem atrakcija, vecākiem miers.",
+       "href": "pasakumiem/index.html#uznemumi"
+      },
+      {
+       "icon": "tent",
+       "title": "Ģimenes svētki",
+       "text": "Kāzas, kristības, saiets. Telts ēnai un atrakcija bērniem.",
+       "href": "pasakumiem/index.html#gimenes-svetki"
+      }
+     ]
+    },
+    {
+     "type": "reviews",
+     "on": true,
+     "eyebrow": "Atsauksmes",
+     "title": "Ko saka vecāki",
+     "score_note": "no {reviews:atsauksmes|atsauksmēm}",
+     "buttons": [
+      {
+       "label": "Lasīt visas atsauksmes",
+       "href": "atsauksmes/index.html"
+      },
+      {
+       "label": "Uzrakstīt atsauksmi",
+       "href": "atsauksmes/index.html",
+       "style": "white",
+       "icon": "star",
+       "google": true
+      }
+     ],
+     "fallback_reviews": [
+      {
+       "author": "Kristīne Š.",
+       "rating": 5,
+       "text": "Paldies, gaviļnieks bija priecīgs, ballīte izdevusies. Komanda un serviss uz visiem 100%!"
+      },
+      {
+       "author": "Laura Grotuse",
+       "rating": 5,
+       "text": "Ļoti labs serviss, visu paši uzstādija un pēc tam novāca. Atrakcijas jaunas,labā stāvoklī. 100% iesaku."
+      },
+      {
+       "author": "Liva Alksne",
+       "rating": 5,
+       "text": "Izcils serviss, lieliska atrakcija!"
+      },
+      {
+       "author": "Dace S",
+       "rating": 5,
+       "text": "Paldies par prieka pilnu dienu bērniem!"
+      },
+      {
+       "author": "Māris Daija",
+       "rating": 5,
+       "text": "Ļoti atsaucīgi un forši čaļi - noteikti iesaku! Norezervējām atrakciju, un pēdējā dienā izrādījās, ka būs lietus un vētra ballītes dienā. Bija iespēja atcelt vai pārcelt ballīti, nezaudējot naudu. Bet čaļi piedāvāja alternatīvu - atvest iepriekšējā vakarā un novākt vēlāk, kad vairs nelīst, bet nosacījums - ja līst, tad nelieto. Gala rezultātā bija izdevusies ballīte, jo lija mazāk kā prognoze rādīja un bija gana laiks aktīvajiem priekiem!"
+      },
+      {
+       "author": "Elina Vasiljeva",
+       "rating": 5,
+       "text": "Viss super! Man ļoti patika serviss un attieksme. Ļoti jauki. Paldies :)"
+      },
+      {
+       "author": "Žaklīna Zemīte",
+       "rating": 5,
+       "text": "👌🏻 Iesaku visiem! Viss tīrs un kārtīgs, serviss vienkārši superīgs 🫶 Pūsli atveda tā, it kā būtu tikko no žurnāla vāka\\! ✨"
+      },
+      {
+       "author": "Laine Vīksniņa",
+       "rating": 5,
+       "text": "Paldies, viss bija lieliski! Atvešana, aizvešana- ne par ko nebija jāsatraucas!💯"
+      },
+      {
+       "author": "Emils Auzins",
+       "rating": 5,
+       "text": "Used the service 2 years in a row. Statisfied both times!"
+      },
+      {
+       "author": "Linda Krumpane",
+       "rating": 5,
+       "text": "Ļoti labs serviss"
+      },
+      {
+       "author": "Ieva Kasparāne",
+       "rating": 5,
+       "text": "Labs serviss,un tīra atrakcija"
+      },
+      {
+       "author": "Karina Kelle",
+       "rating": 5,
+       "text": "Lielisks serviss, kvalitāte. Patīkami apkalpošana. Pasūtu jau vairākas reizes, vienmēr viss ir lieliski."
+      },
+      {
+       "author": "Imants Parādnieks",
+       "rating": 5,
+       "text": "Viss bija lieliski! Serviss nevainojams un atrakcija funkcionēja bērniem par milzīgu prieku. Kopā ar mūsu pašu sagādāto putu mašīnu un karsto baļļu ar burbuļiem visi 32 sanākušie bērni izbaudīja \"slapjo ballīti\" uz nebēdu, atdzīstot to par varenāko ballīti kādā iztrakojušies. :-))"
+      },
+      {
+       "author": "Ginta Bērziņa",
+       "rating": 5,
+       "text": "Izcils serviss un kvalitāte!"
+      },
+      {
+       "author": "Victoria Muzichenko",
+       "rating": 5,
+       "text": "Third time dealing with guppi.lv and as always the team is professional and understanding despite the weather and other obstacles. Many thanks!"
+      },
+      {
+       "author": "Santa Sprukta",
+       "rating": 5,
+       "text": "Lielisks serviss. Ātra un raita uzstādīšana, tīrs un uz vietas vēl iztīra piepūšamo atrakciju. Iesaku!🤩"
+      },
+      {
+       "author": "Laila Verbicka",
+       "rating": 5,
+       "text": "Lielisks serviss, komunikācija un plaša atrakciju izvēle."
+      },
+      {
+       "author": "Jolanta Klavina",
+       "rating": 5,
+       "text": "Viss, kā vienmēr līmenī. Esmu ļoti apmierināta. Tiksimies atkal nākošgad😊"
+      },
+      {
+       "author": "Krista Kokina",
+       "rating": 5,
+       "text": "Paldies, viss bija lieliski!"
+      },
+      {
+       "author": "Elina Krauce",
+       "rating": 5,
+       "text": "Jubilāre - divgadniece un mazie viesi bija sajūsmā par “Taurenīti”. Punktuāli, atsaucīgi un smaidīgi darbinieki! Var just, ka sagādāt prieku un svētkus ir Jūsu aicinājums! Paldies par pozitīvo sadarbību!"
+      },
+      {
+       "author": "Jelena Odnakisa",
+       "rating": 5,
+       "text": "Viss lieliski! Liels paldies sadarbību!"
+      },
+      {
+       "author": "Elīza",
+       "rating": 5,
+       "text": "Viss apmierināja, Paldies!"
+      },
+      {
+       "author": "Laura Podgurska",
+       "rating": 5,
+       "text": "Viss notika gludi, laicīgi atveda un novāca atrakciju."
+      },
+      {
+       "author": "Lita Linde",
+       "rating": 5,
+       "text": "Viss bija lieliski! Bērni ļoti priecīgi. Atrakcijas tīras, piegāde un uzstādīšana ļoti operatīva. Paldies!"
+      }
+     ]
+    },
+    {
+     "type": "story",
+     "on": true,
+     "photo": "media/dinozauri/1.webp",
+     "photo_alt": "Mega dinozauri uzstādīti pagalmā",
+     "sticker": "Tīrām pirms katras nomas",
+     "eyebrow": "Prieks bērniem, miers vecākiem",
+     "eyebrow_icon": "heart",
+     "title": "Mēs paši zinām, cik daudz prasa bērnu ballīte",
+     "paragraphs": [
+      "Arī mēs esam rīkojuši ballītes saviem bērniem: meklējuši laiku, plānojuši jautrību un uztraukušies par katru sīkumu. Tāpēc radījām GUPPI — lai svētki vecākiem sagādā prieku, nevis lieku stresu.",
+      "Mēs parūpējamies par tīrām, drošām atrakcijām un precīzu piegādi. Tu vienkārši baudi svētkus kopā ar bērniem."
+     ],
+     "stats": [
+      {
+       "count": 25,
+       "label": "atrakcijas"
+      },
+      {
+       "value": "{rating}★",
+       "label": "vidējais vērtējums"
+      },
+      {
+       "count": 250,
+       "label": "piecu zvaigžņu atsauksmes",
+       "suffix": "+"
+      },
+      {
+       "count": 2,
+       "label": "rezervācijai",
+       "suffix": " min"
+      }
+     ],
+     "more": {
+      "label": "Vairāk par mums",
+      "href": "par-mums/index.html"
+     }
+    },
+    {
+     "eyebrow": "Kāpēc GUPPI",
+     "eyebrow_icon": "shield",
+     "title": "Kāpēc vecāki zvana otrreiz",
+     "type": "reasons",
+     "on": true,
+     "items": [
+      {
+       "icon": "sparkle",
+       "title": "Tīrs inventārs",
+       "text": "Atrakcijas ir jaunas un tiek tīrītas pirms katras nomas. Atvedam tādu, kādu paši gribētu saviem bērniem."
+      },
+      {
+       "icon": "shield",
+       "title": "Drošas un sertificētas",
+       "text": "Atbilst ES drošības standartam EN 14960. Stingra nostiprināšana atbilstoši laikapstākļiem."
+      },
+      {
+       "icon": "umbrella",
+       "title": "Lietus nav sods",
+       "text": "Lietus vai vētras dienā ballīti pārceļ vai atceļ, neatstājot avansu."
+      },
+      {
+       "icon": "wallet",
+       "title": "Tikai {deposit}% avanss",
+       "text": "Atlikumu maksā {balance:svētkiem|svētku dienā}. Bez slēptām izmaksām."
+      },
+      {
+       "icon": "truck",
+       "title": "Atvedam un uzstādām",
+       "text": "Līdz 12:00 viss stāv gatavs, pēc 19:00 novācam. Tev nekas nav jānes."
+      },
+      {
+       "icon": "calendar",
+       "title": "Rezervē 24/7",
+       "text": "Kalendārā redzi brīvās dienas un rezervē tiešsaistē — bez zvanīšanas."
+      }
+     ]
+    },
+    {
+     "eyebrow": "Padomi vecākiem",
+     "eyebrow_icon": "sparkle",
+     "title": "Pirms rezervē — izlasi",
+     "more": {
+      "label": "Visi padomi",
+      "href": "padomi/index.html"
+     },
+     "type": "tips",
+     "on": true,
+     "items": [
+      "ka-izveleties-atrakciju",
+      "ka-sagatavot-vietu",
+      "lietus-garantija",
+      "cik-maksa-bernu-ballite"
+     ]
+    },
+    {
+     "eyebrow": "Jautājumi",
+     "eyebrow_icon": "chat",
+     "title": "Bieži jautā",
+     "type": "faq",
+     "on": true,
+     "items": [
+      {
+       "q": "Cik maksā piepūšamās atrakcijas noma?",
+       "a": "Vienas dienas noma ir no {price:pasakumu-telts-3x6} par pasākumu telti un no {price:min:barby,taurenitis,vienradzite,cucina-pepa} par mazākajām atrakcijām. Lielākās atrakcijas maksā no {price:min:dinozauri,minecraft,lauku-seta,pirati,lego-movie-stafete,vienradzis,pludmale-un-serfings,super-sonic} dienā. Cenas “no” ir darba dienām (P–C); precīzu cenu katrai dienai redzi kalendārā. Cenā ir piegāde izvēlētajā zonā, uzstādīšana, pūtējs un novākšana. Divām un trim dienām dienas cena ir zemāka."
+      },
+      {
+       "q": "Vai jāmaksā visa summa uzreiz?",
+       "a": "Nē. Rezervāciju nostiprina {deposit}% avanss. Atlikumu samaksā {balance:ballītes|ballītes dienā}. Pēc pieteikuma nosūtām rēķinu uz e-pastu."
+      },
+      {
+       "q": "Kur piegāde ir bez maksas?",
+       "a": "Bezmaksas piegāde ir Mārupē, Jaunmārupē, Babītē, Piņķos, Rāmavā, kā arī Āgenskalnā un Bieriņos. Citur Rīgā un Pierīgā maksu aprēķina pēc pasta indeksa rezervācijas formā."
+      },
+      {
+       "q": "Ko darīt, ja ballītes dienā līst?",
+       "a": "Lietus vai vētras gadījumā ballīti var pārcelt uz citu dienu vai atcelt, neatstājot avansu. Atrakciju varam atvest jau iepriekšējā vakarā, ja tā ir brīva, un novākt, kad laiks ir piemērots."
+      },
+      {
+       "q": "Cikos atrakciju uzstāda un novāc?",
+       "a": "Uzstādām piegādes dienā līdz plkst. 12:00. Novākšana ir pēc plkst. 19:00. Precīzu laiku saskaņojam iepriekš, jo vienā dienā apkalpojam vairākas adreses."
+      },
+      {
+       "q": "Vai atrakcijas ir drošas?",
+       "a": "Jā. Inventārs ir jauns un atbilst EN 14960. Pirms katras nomas atrakciju tīrām. Ballītes laikā bērniem jābūt pieaugušā uzraudzībā."
+      }
+     ]
+    },
+    {
+     "type": "cta",
+     "on": true,
+     "eyebrow": "Gatavs svētkiem?",
+     "title": "Atrodi brīvo dienu un rezervē 2 minūtēs",
+     "text": "Izvēlies atrakciju, kalendārā redzi brīvās dienas un pievieno grozam. Pārējo darām mēs.",
+     "buttons": [
+      {
+       "label": "Izvēlēties atrakciju",
+       "href": "atrakcijas/index.html",
+       "arrow": true
+      },
+      {
+       "label": "29886317",
+       "href": "tel:+37129886317",
+       "style": "white",
+       "icon": "phone"
+      }
+     ]
+    }
+   ]
+  },
+  "atrakcijas/index.html": {
+   "kind": "catalog",
+   "nav": "atrakcijas",
+   "seo_title": "Piepūšamās atrakcijas bērnu ballītēm | GUPPI",
+   "seo_description": "Katalogs ar izmēriem, vecumu un cenu par 1–3 dienām."
+  },
+  "pasakumiem/index.html": {
+   "kind": "sections",
+   "nav": "pasakumiem",
+   "seo_title": "Atrakcijas pasākumiem | GUPPI",
+   "seo_description": "Piepūšamās atrakcijas dzimšanas dienām, bērnudārziem, skolām, uzņēmumu un ģimenes svētkiem Rīgā un Pierīgā.",
+   "sections": [
+    {
+     "type": "page_hero",
+     "on": true,
+     "eyebrow": "Pasākumiem",
+     "eyebrow_icon": "gift",
+     "title": "Atrakcijas jebkuriem svētkiem",
+     "lead": "No dzimšanas dienas pagalmā līdz uzņēmuma ģimenes dienai. Atvedam, uzstādām līdz 12:00 un novācam pēc 19:00."
+    },
+    {
+     "type": "occ_details",
+     "on": true,
+     "items": [
+      {
+       "id": "dzimsanas-diena",
+       "tint": "--primary-soft",
+       "photo": "media/lauku-seta/1.webp",
+       "photo_alt": "Lauku sēta dzimšanas dienas ballītē",
+       "icon": "cake",
+       "eyebrow": "Dzimšanas diena",
+       "title": "Svētki pagalmā, kas paliek atmiņā",
+       "text": "Atrakcija pagalmā ir ballītes centrs: bērni lēkā, slīd un skrien visu dienu, bet vecāki var mierīgi parūpēties par galdu. Mazajiem (2–5 gadi) iesakām kompaktās atrakcijas, lielākiem — trases ar augstiem slidkalniņiem.",
+       "buttons": [
+        {
+         "label": "Mazajiem (2–5 gadi)",
+         "href": "atrakcijas/index.html?grupa=mazie",
+         "arrow": true
+        },
+        {
+         "label": "Lielākiem bērniem",
+         "href": "atrakcijas/index.html?grupa=mega",
+         "style": "white",
+         "arrow": true
+        }
+       ]
+      },
+      {
+       "id": "bernudarzi-un-skolas",
+       "tint": "--accent-soft",
+       "photo": "media/dinozauri/2.webp",
+       "photo_alt": "Mega dinozauri ar šķēršļu joslu",
+       "icon": "school",
+       "eyebrow": "Bērnudārzs un skola",
+       "title": "Sporta diena, izlaidums vai rudens svētki",
+       "text": "Grupai vajag atrakciju, kurā vienlaikus var būt vairāki bērni, un drošu uzstādīšanu skolas vai bērnudārza teritorijā. Pastāsti par bērnu skaitu un vecumu — ieteiksim piemērotāko un saskaņosim laiku ar iestādi.",
+       "buttons": [
+        {
+         "label": "Lielās atrakcijas grupām",
+         "href": "atrakcijas/index.html?grupa=mega",
+         "arrow": true
+        },
+        {
+         "label": "Zvanīt 29886317",
+         "href": "tel:+37129886317",
+         "style": "white"
+        }
+       ]
+      },
+      {
+       "id": "uznemumi",
+       "tint": "--green-soft",
+       "photo": "media/minecraft/1.webp",
+       "photo_alt": "Mega Minecraft atrakcija",
+       "icon": "briefcase",
+       "eyebrow": "Uzņēmuma svētki",
+       "title": "Ģimenes diena kolektīvam",
+       "text": "Kad uz uzņēmuma svētkiem nāk ģimenes, bērniem vajag savu stūrīti. Vedam vairākas atrakcijas reizē, pasākumu telti un uzstādām tās tā, lai pieaugušie var mierīgi baudīt pasākumu.",
+       "buttons": [
+        {
+         "label": "Visas atrakcijas",
+         "href": "atrakcijas/index.html",
+         "arrow": true
+        },
+        {
+         "label": "Zvanīt 29886317",
+         "href": "tel:+37129886317",
+         "style": "white"
+        }
+       ]
+      },
+      {
+       "id": "gimenes-svetki",
+       "tint": "--lilac-soft",
+       "photo": "media/pasakumu-telts-3x6/1.webp",
+       "photo_alt": "Pasākumu telts 3×6 m",
+       "icon": "tent",
+       "eyebrow": "Ģimenes svētki",
+       "title": "Kāzas, kristības un saieti",
+       "text": "Pasākumu telts 3×6 m dod ēnu un patvērumu no lietus galdam un viesiem, bet piepūšamā atrakcija aizņem bērnus, kamēr pieaugušie svin. Abas atvedam un uzstādām vienā braucienā.",
+       "buttons": [
+        {
+         "label": "Pasākumu telts",
+         "href": "atrakcijas/pasakumu-telts-3x6/index.html",
+         "arrow": true
+        },
+        {
+         "label": "Atrakcijas bērniem",
+         "href": "atrakcijas/index.html",
+         "style": "white",
+         "arrow": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "eyebrow": "Pēc vecuma",
+     "eyebrow_icon": "kids",
+     "title": "Kas der kuram vecumam?",
+     "more": {
+      "label": "Visas atrakcijas",
+      "href": "atrakcijas/index.html"
+     },
+     "type": "reasons",
+     "on": true,
+     "items": [
+      {
+       "icon": "heart",
+       "title": "2–5 gadi",
+       "text": "Kompaktas atrakcijas ar lēzenu slidkalniņu un zemām kāpnēm: Taurenītis, Vienradzīte, Cūciņa Pepa.",
+       "href": "atrakcijas/index.html?grupa=mazie",
+       "go": "Skatīt atrakcijas"
+      },
+      {
+       "icon": "smile",
+       "title": "4–8 gadi",
+       "text": "Klasika ar batutu, šķēršļiem un diviem slidkalniņiem: Frozen pils, Minioni, Supervaroņi.",
+       "href": "atrakcijas/index.html?grupa=klasika",
+       "go": "Skatīt atrakcijas"
+      },
+      {
+       "icon": "slide",
+       "title": "5+ gadi",
+       "text": "Lielās trases ar augstiem nobraucieniem: Mega pirāti, Mega dinozauri, Mega Minecraft.",
+       "href": "atrakcijas/index.html?grupa=mega",
+       "go": "Skatīt atrakcijas"
+      }
+     ]
+    },
+    {
+     "type": "cta",
+     "on": true,
+     "eyebrow": "Gatavs svētkiem?",
+     "title": "Atrodi brīvo dienu un rezervē 2 minūtēs",
+     "text": "Izvēlies atrakciju, kalendārā redzi brīvās dienas un pievieno grozam. Pārējo darām mēs.",
+     "buttons": [
+      {
+       "label": "Izvēlēties atrakciju",
+       "href": "atrakcijas/index.html",
+       "arrow": true
+      },
+      {
+       "label": "29886317",
+       "href": "tel:+37129886317",
+       "style": "white",
+       "icon": "phone"
+      }
+     ]
+    }
+   ]
+  },
+  "ka-tas-notiek/index.html": {
+   "kind": "sections",
+   "nav": "ka-tas-notiek",
+   "seo_title": "Kā notiek atrakcijas noma | GUPPI",
+   "seo_description": "Piepūšamās atrakcijas noma soli pa solim: rezervācija, 20% avanss, piegāde līdz 12:00 un novākšana pēc 19:00.",
+   "sections": [
+    {
+     "type": "page_hero",
+     "on": true,
+     "eyebrow": "Kā tas notiek",
+     "eyebrow_icon": "clock",
+     "title": "No rezervācijas līdz novākšanai",
+     "lead": "Astoņi vienkārši soļi. Tev jāizvēlas atrakcija un diena — pārējo darām mēs."
+    },
+    {
+     "type": "timeline",
+     "on": true,
+     "items": [
+      {
+       "icon": "search",
+       "title": "Izvēlies atrakciju",
+       "text": "Katalogā redzi izmēru, vecumu un cenu. Ja šaubies, ieskaties padomos vai zvani mums.",
+       "when": "Jebkurā laikā"
+      },
+      {
+       "icon": "calendar",
+       "title": "Atrodi brīvo dienu",
+       "text": "Kalendārā katrai dienai redzama cena. Darba dienās (P–C) tā ir zemāka.",
+       "when": "Tiešsaistē 24/7"
+      },
+      {
+       "icon": "gift",
+       "title": "Pievieno grozam un noformē",
+       "text": "Ievadi adresi un pasta indeksu — piegādes cenu redzēsi uzreiz. Rezervācija aizņem ap 2 minūtēm.",
+       "when": "2 minūtes"
+      },
+      {
+       "icon": "wallet",
+       "title": "Iemaksā {deposit}% avansu",
+       "text": "Mēs apstiprinām rezervāciju un atsūtām rēķinu. Avanss nostiprina Tavu dienu.",
+       "when": "Pēc apstiprinājuma"
+      },
+      {
+       "icon": "check",
+       "title": "Samaksā atlikumu",
+       "text": "Atlikumu maksā {balance:svētkiem|svētku dienā}. Pirms tam vēlreiz saskaņojam piegādes laiku.",
+       "when": "Pirms svētkiem"
+      },
+      {
+       "icon": "truck",
+       "title": "Atvedam un uzstādām",
+       "text": "Atrakciju atvedam un uzstādām līdz 12:00, pārbaudām nostiprinājumus un parādām, kā lietot.",
+       "when": "Līdz 12:00"
+      },
+      {
+       "icon": "heart",
+       "title": "Svini!",
+       "text": "Bērni lēkā, vecāki atpūšas. Ballītes laikā bērniem jābūt pieaugušā uzraudzībā.",
+       "when": "Visu dienu"
+      },
+      {
+       "icon": "clock",
+       "title": "Novācam paši",
+       "text": "Pēc 19:00 atrakciju izlaižam, saliekam un aizvedam. Tev nekas nav jātīra.",
+       "when": "Pēc 19:00"
+      }
+     ]
+    },
+    {
+     "type": "info",
+     "on": true,
+     "items": [
+      {
+       "icon": "umbrella",
+       "title": "Ja līst",
+       "cls": "rain",
+       "more": {
+        "label": "Lietus noteikums",
+        "href": "padomi/lietus-garantija/index.html"
+       },
+       "paragraphs": [
+        "Lietus vai vētras dienā ballīti var pārcelt uz citu dienu vai atcelt, neatstājot avansu. Ja diena ir brīva, atrakciju varam atvest jau iepriekšējā vakarā."
+       ]
+      },
+      {
+       "icon": "home",
+       "title": "Ko sagatavot",
+       "list": [
+        "Līdzenu laukumu atrakcijas izmērā",
+        "Rozeti ar vismaz 2,0 kW jaudu, ne tālāk par 20 m",
+        "Vismaz 1,5 m platu piekļuvi līdz vietai",
+        "Pieaugušā uzraudzību visu nomas laiku"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "cta",
+     "on": true,
+     "eyebrow": "Gatavs svētkiem?",
+     "title": "Atrodi brīvo dienu un rezervē 2 minūtēs",
+     "text": "Izvēlies atrakciju, kalendārā redzi brīvās dienas un pievieno grozam. Pārējo darām mēs.",
+     "buttons": [
+      {
+       "label": "Izvēlēties atrakciju",
+       "href": "atrakcijas/index.html",
+       "arrow": true
+      },
+      {
+       "label": "29886317",
+       "href": "tel:+37129886317",
+       "style": "white",
+       "icon": "phone"
+      }
+     ]
+    }
+   ]
+  },
+  "par-mums/index.html": {
+   "kind": "sections",
+   "nav": "par-mums",
+   "seo_title": "Par mums | GUPPI",
+   "seo_description": "GUPPI.LV ir piepūšamo atrakciju noma Rīgā un Pierīgā, ko radījuši vecāki citiem vecākiem: tīras, drošas atrakcijas un piegāde līdz 12:00.",
+   "sections": [
+    {
+     "type": "page_hero",
+     "on": true,
+     "eyebrow": "Par mums",
+     "eyebrow_icon": "heart",
+     "title": "Prieks bērniem, miers vecākiem",
+     "lead": "GUPPI radām, lai bērnu svētki vecākiem sagādātu prieku, nevis lieku stresu."
+    },
+    {
+     "type": "story",
+     "on": true,
+     "photo": "media/vienradzis/1.webp",
+     "photo_alt": "Vienradža atrakcija pagalmā",
+     "sticker": "Jaunas atrakcijas",
+     "eyebrow": "Mūsu stāsts",
+     "eyebrow_icon": "",
+     "title": "Mēs paši esam bijuši Tavā vietā",
+     "paragraphs": [
+      "Rīkojot ballītes saviem bērniem, labi iepazinām, kā tas ir: jāatrod laiks, jānoorganizē jautrība un jāuztraucas par katru sīkumu. Bieži vien pašiem svētkiem prieka paliek pavisam maz.",
+      "Tāpēc radījām GUPPI. Mēs atvedam tīru un drošu atrakciju, uzstādām to un pēc svētkiem novācam. Tev atliek tikai baudīt dienu kopā ar bērniem."
+     ],
+     "stats": [
+      {
+       "count": 25,
+       "label": "atrakcijas"
+      },
+      {
+       "value": "{rating}★",
+       "label": "vidējais vērtējums"
+      },
+      {
+       "count": 250,
+       "label": "piecu zvaigžņu atsauksmes",
+       "suffix": "+"
+      },
+      {
+       "value": "{deposit}%",
+       "label": "avanss rezervācijai"
+      }
+     ],
+     "pad_top": true
+    },
+    {
+     "eyebrow": "Mūsu vērtības",
+     "eyebrow_icon": "star",
+     "title": "Kam mēs ticam",
+     "type": "reasons",
+     "on": true,
+     "items": [
+      {
+       "icon": "sparkle",
+       "title": "Tīrība",
+       "text": "Pirms katras nomas atrakciju tīrām. Atvedam tādu, uz kuras paši ļautu lēkt saviem bērniem."
+      },
+      {
+       "icon": "shield",
+       "title": "Drošība",
+       "text": "Inventārs ir jauns un sertificēts pēc EN 14960. Nostiprinām atbilstoši laikapstākļiem."
+      },
+      {
+       "icon": "clock",
+       "title": "Precizitāte",
+       "text": "Uzstādām līdz 12:00 un laiku saskaņojam iepriekš, jo vienā dienā apkalpojam vairākas adreses."
+      },
+      {
+       "icon": "heart",
+       "title": "Godīgums",
+       "text": "Skaidras cenas, tikai 20% avanss un lietus noteikums, kas nesoda par laikapstākļiem."
+      }
+     ]
+    },
+    {
+     "type": "info",
+     "on": true,
+     "items": [
+      {
+       "icon": "pin",
+       "title": "{business.legal_name}",
+       "fill": "company",
+       "reg_line": "Reģ. nr. {business.reg_no} · PVN {business.vat_no}"
+      },
+      {
+       "icon": "phone",
+       "title": "Sazināties",
+       "fill": "contact"
+      }
+     ]
+    },
+    {
+     "type": "cta",
+     "on": true,
+     "eyebrow": "Gatavs svētkiem?",
+     "title": "Atrodi brīvo dienu un rezervē 2 minūtēs",
+     "text": "Izvēlies atrakciju, kalendārā redzi brīvās dienas un pievieno grozam. Pārējo darām mēs.",
+     "buttons": [
+      {
+       "label": "Izvēlēties atrakciju",
+       "href": "atrakcijas/index.html",
+       "arrow": true
+      },
+      {
+       "label": "29886317",
+       "href": "tel:+37129886317",
+       "style": "white",
+       "icon": "phone"
+      }
+     ]
+    }
+   ]
+  },
+  "piegade/index.html": {
+   "kind": "delivery",
+   "nav": "piegade",
+   "seo_title": "Piegāde Rīgā un Pierīgā | GUPPI",
+   "seo_description": "Bezmaksas piegāde Mārupē, Jaunmārupē, Babītē, Piņķos, Rāmavā, Āgenskalnā un Bieriņos.",
+   "title": "Piegāde Rīgā un Pierīgā",
+   "intro": "Atvedam atrakciju, uzstādām līdz plkst. 12:00 un novācam pēc plkst. 19:00. Cena ir par abiem braucieniem kopā.",
+   "zones": [
+    {
+     "price": "0 €",
+     "title": "Bezmaksas piegāde",
+     "text": "Mārupe, Jaunmārupe, Babīte, Piņķi, Rāmava, Āgenskalns un Bieriņi."
+    },
+    {
+     "price": "20 €",
+     "title": "Pārējā Rīga",
+     "text": "Pārējā Rīga ārpus bezmaksas apkaimēm."
+    },
+    {
+     "price": "25 €",
+     "title": "Tuvā Pierīga",
+     "text": "Jūrmala, Olaine, Baloži, Ķekava un lidostas apkārtne."
+    },
+    {
+     "price": "45 €",
+     "title": "Pārējā Pierīga",
+     "text": "Salaspils, Ādaži, Carnikava, Ulbroka, Baldone, Ropaži."
+    },
+    {
+     "price": "Pēc saskaņošanas",
+     "title": "Piegādi apstiprinām atsevišķi",
+     "text": "Tālāk par Pierīgu cenu apstiprinām pirms avansa rēķina. Rezervāciju var nosūtīt jau tagad."
+    }
+   ],
+   "lookup": {
+    "label": "Pasta indekss",
+    "placeholder": "2167",
+    "hint": "Ievadi 4 ciparus, piemēram, 2167.",
+    "link": "Turpināt uz rezervāciju"
+   }
+  },
+  "atsauksmes/index.html": {
+   "kind": "reviews",
+   "nav": "atsauksmes",
+   "seo_title": "Atsauksmes | GUPPI",
+   "seo_description": "Ko ģimenes raksta pēc bērnu ballītēm.",
+   "title": "Atsauksmes"
+  },
+  "kontakti/index.html": {
+   "kind": "contacts",
+   "nav": "kontakti",
+   "seo_title": "Kontakti | GUPPI",
+   "seo_description": "SIA GUPPI.LV kontakti: 29886317, info@guppi.lv.",
+   "title": "Kontakti",
+   "reg_line": "Reģ. nr. {business.reg_no}",
+   "vat_line": "PVN {business.vat_no}",
+   "when_title": "Kad rakstīt",
+   "when_text": [
+    "Rezervāciju vari nosūtīt no šīs lapas. Zvani, ja pagalms ir šaurs, vajag atrakciju tajā pašā dienā vai ballīte ir skolai, bērnudārzam vai publiskam pasākumam.",
+    "Darba dienās no pirmdienas līdz ceturtdienai ir atlaide. Tā ir redzama kalendārā, kods nav vajadzīgs."
+   ]
+  },
+  "rezervet/index.html": {
+   "kind": "booking",
+   "nav": "",
+   "seo_title": "Rezervēt piepūšamo atrakciju | GUPPI",
+   "seo_description": "Izvēlies brīvu dienu un nosūti rezervācijas pieteikumu.",
+   "title": "Rezervēt",
+   "intro": "Izvēlies atrakciju, nomas ilgumu un brīvu dienu, tad pievieno grozam. Rezervāciju noformē grozā."
+  },
+  "grozs/index.html": {
+   "kind": "cart",
+   "nav": "",
+   "seo_title": "Grozs | GUPPI",
+   "seo_description": "",
+   "title": "Grozs",
+   "intro": "Pārbaudi atrakcijas un dienas, ievadi piegādes adresi un kontaktus, tad nosūti rezervāciju."
+  },
+  "davanu-karte/index.html": {
+   "kind": "gift",
+   "nav": "",
+   "seo_title": "Dāvanu karte | GUPPI",
+   "seo_description": "GUPPI dāvanu karte piepūšamās atrakcijas nomai.",
+   "title": "Dāvanu karte",
+   "intro": "Karte der jebkurai atrakcijai katalogā. Saņēmējs izvēlas datumu un modeli pats. Summa, kas pārsniedz karti, jāpiemaksā rezervācijā. Karte der 12 mēnešus.",
+   "form": {
+    "amount_label": "Summa",
+    "amounts": [
+     30,
+     50,
+     100,
+     150
+    ],
+    "default": 50,
+    "fields": [
+     {
+      "label": "Tavs vārds",
+      "name": "name",
+      "required": true
+     },
+     {
+      "label": "Tālrunis",
+      "name": "phone",
+      "required": true
+     },
+     {
+      "label": "E-pasts",
+      "name": "email",
+      "type": "email",
+      "required": true
+     },
+     {
+      "label": "Saņēmējs",
+      "name": "recipient"
+     },
+     {
+      "label": "Vēlējums",
+      "name": "notes",
+      "textarea": true
+     }
+    ],
+    "submit": "Pieteikt dāvanu karti"
+   }
+  },
+  "padomi/index.html": {
+   "kind": "articles",
+   "nav": "padomi",
+   "seo_title": "Padomi vecākiem | GUPPI",
+   "seo_description": "Kā izvēlēties piepūšamo atrakciju un sagatavot pagalmu.",
+   "title": "Padomi vecākiem",
+   "intro": "Īsi pieraksti pirms rezervācijas.",
+   "items": [
+    "ka-izveleties-atrakciju",
+    "ka-sagatavot-vietu",
+    "lietus-garantija",
+    "cik-maksa-bernu-ballite"
+   ]
+  },
+  "noteikumi/index.html": {
+   "kind": "legal",
+   "legal": "terms",
+   "nav": "",
+   "seo_title": "Nomas noteikumi | GUPPI",
+   "seo_description": "Avanss, lietus, atcelšana un klienta pienākumi."
+  },
+  "privatums/index.html": {
+   "kind": "legal",
+   "legal": "privacy",
+   "nav": "",
+   "seo_title": "Privātums | GUPPI",
+   "seo_description": "Kā SIA GUPPI.LV izmanto rezervācijas datus."
+  }
+ }
+}
