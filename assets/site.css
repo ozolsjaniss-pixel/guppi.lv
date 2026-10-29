@@ -190,17 +190,29 @@ nav.desk a:hover::after, nav.desk a[aria-current]::after { transform: scaleX(1);
 /* hero */
 .hero2 { position: relative; color: var(--ink); overflow: hidden; background: radial-gradient(circle at 8% 15%, rgba(174, 74, 132, 0.12) 0 10rem, transparent 10.1rem), radial-gradient(circle at 95% 90%, rgba(243, 167, 19, 0.25) 0 13rem, transparent 13.1rem), linear-gradient(135deg, #fbeef5 0%, #fff8ec 100%); }
 .hero2::before { content: ""; position: absolute; inset: 0; opacity: 0.45; background-image: radial-gradient(rgba(243, 167, 19, 0.7) 2px, transparent 2.5px), radial-gradient(rgba(174, 74, 132, 0.35) 1.5px, transparent 2px); background-size: 46px 46px, 31px 31px; background-position: 0 0, 15px 20px; mask-image: linear-gradient(90deg, transparent, #000 60%); pointer-events: none; }
-.hero2-grid { position: relative; display: grid; gap: 2.5rem; align-items: center; padding: 3rem 0 5.5rem; }
+.hero2-grid { position: relative; display: grid; gap: 2.5rem; align-items: center; padding: 3rem 0 2.5rem; }
 .hero2 h1 { font-size: clamp(2.4rem, 6vw, 4.3rem); font-weight: 900; line-height: 1.02; margin-top: 0.9rem; }
 .hero2 .hl { color: var(--plum); background: linear-gradient(transparent 68%, rgba(243, 167, 19, 0.45) 68% 92%, transparent 92%); }
 .hero2 .lead { color: var(--muted); margin-top: 1rem; font-size: 1.2rem; }
 .hero2 .btn.ghost { color: var(--plum); }
 .hero2 .row { margin-top: 1.6rem; }
 .sticker { display: inline-flex; align-items: center; gap: 0.45rem; background: var(--plum); color: #fff; font-family: Nunito, sans-serif; font-weight: 900; padding: 0.45rem 0.9rem; border-radius: 999px; rotate: -2deg; box-shadow: var(--shadow-sm); }
-.trust { list-style: none; padding: 0; margin: 1.8rem 0 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
-.trust li { display: inline-flex; align-items: center; gap: 0.45rem; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-sm); border-radius: 999px; padding: 0.45rem 0.85rem; font-weight: 700; font-size: 0.95rem; backdrop-filter: blur(4px); }
-.trust .star { color: var(--gold); }
-.trust .ic { color: var(--plum); }
+.trust-row { position: relative; padding-bottom: 5rem; }
+.trust { list-style: none; padding: 0.4rem; margin: 0; display: grid; gap: 0.2rem; background: #fff; border-radius: 1.3rem; box-shadow: 0 16px 36px -18px rgba(110, 40, 80, 0.45); border: 1px solid rgba(174, 74, 132, 0.15); }
+.trust li { display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 0.8rem; }
+.trust li + li { border-top: 1px dashed var(--line); }
+.trust b { display: block; font-family: Nunito, sans-serif; font-weight: 900; font-size: 1.15rem; line-height: 1.15; color: var(--ink); }
+.trust small { display: block; color: var(--muted); font-size: 0.85rem; font-weight: 600; margin-top: 0.15rem; }
+.trust .stars { color: var(--gold); font-size: 1rem; letter-spacing: 0.05em; }
+.t-ic { flex: none; width: 2.8rem; height: 2.8rem; border-radius: 0.9rem; display: grid; place-items: center; }
+.t-ic .ic { width: 1.5rem; height: 1.5rem; }
+.t-rating .t-ic { background: var(--gold-soft); color: var(--gold); }
+.t-safe .t-ic { background: var(--green-soft); color: var(--green); }
+.t-pay .t-ic { background: var(--plum-soft); color: var(--plum); }
+@media (min-width: 640px) {
+  .trust { grid-template-columns: repeat(3, 1fr); }
+  .trust li + li { border-top: 0; border-left: 1px dashed var(--line); }
+}
 .hero2-art { position: relative; min-height: 22rem; }
 .polaroid { position: absolute; margin: 0; background: #fff; padding: 0.5rem 0.5rem 1.6rem; border-radius: 1rem; box-shadow: 0 22px 40px -20px rgba(110, 40, 80, 0.55); animation: bob 6s ease-in-out infinite; }
 .polaroid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 0.7rem; }
@@ -407,7 +419,7 @@ ol.todo li::before { counter-increment: todo; content: counter(todo); flex: none
   .info-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 900px) {
-  .hero2-grid { grid-template-columns: 1.05fr 0.95fr; padding: 4rem 0 6.5rem; }
+  .hero2-grid { grid-template-columns: 1.05fr 0.95fr; padding: 4rem 0 2.5rem; }
   .hero2-art { min-height: 30rem; }
   .occasions { grid-template-columns: repeat(4, 1fr); }
   .why { grid-template-columns: repeat(3, 1fr); }
