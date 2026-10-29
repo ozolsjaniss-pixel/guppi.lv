@@ -69,8 +69,16 @@ var BUSINESS = "guppi"
 
   var rating = all("[data-portal-rating]")
   var count = all("[data-portal-review-count]")
-  if (rating.length || count.length) {
+  var wall = document.querySelector("[data-reviews-wall]")
+  if (rating.length || count.length || wall) {
     get("/api/v1/reviews?business=" + BUSINESS).then(function (reviews) {
+      // Atsauksmju sienai — labās atsauksmes ar tekstu, jaunākās pirmās.
+      if (wall && reviews && reviews.reviews && window.guppiReviews) {
+        window.guppiReviews(reviews.reviews.filter(function (r) {
+          return (r.rating || 0) >= 4 && r.text && r.text.trim().length >= 15
+        }).slice(0, 24).map(function (r) { return { author: r.author, rating: r.rating, text: r.text.trim() } }))
+      }
+      if (reviews && reviews.google_url) all("[data-google-review]").forEach(function (a) { a.href = reviews.google_url })
       if (!reviews || typeof reviews.rating !== "number" || !whole(reviews.total) || !reviews.total) return
       var stars = reviews.rating % 1 ? String(reviews.rating) : reviews.rating.toFixed(1)
       rating.forEach(function (span) { span.textContent = stars.replace(".", ",") })

@@ -85,4 +85,121 @@
       location.href = "mailto:" + data.email + "?subject=" + encodeURIComponent("Dāvanu karte " + amount + " €") + "&body=" + encodeURIComponent(body)
     })
   }
+  // Kustība: parādās ritinot, skaitļi skaita, ja lietotājs nav lūdzis mazāk kustības.
+  var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  document.documentElement.classList.add("js")
+  var seen = "IntersectionObserver" in window && !calm ? new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return
+      entry.target.classList.add("in")
+      if (entry.target.hasAttribute("data-count")) countUp(entry.target)
+      seen.unobserve(entry.target)
+    })
+  }, { threshold: 0.15 }) : null
+  document.querySelectorAll(".reveal, [data-count]").forEach(function (el) {
+    if (seen) seen.observe(el)
+    else el.classList.add("in")
+  })
+  function countUp(el) {
+    var end = Number(el.getAttribute("data-count"))
+    if (!end) return
+    var start = performance.now()
+    var suffix = el.getAttribute("data-suffix") || ""
+    function step(now) {
+      var t = Math.min(1, (now - start) / 1200)
+      el.textContent = Math.round(end * (1 - Math.pow(1 - t, 3))) + suffix
+      if (t < 1) requestAnimationFrame(step)
+    }
+    requestAnimationFrame(step)
+  }
+
+  // Atsauksmju siena: divas rindas slīd pretējos virzienos, apstājas, kad uzbrauc ar peli.
+  var AV = ["#ae4a84", "#f3a713", "#1c9a4b", "#6a4fb3", "#d0607f", "#2f8fbf"]
+  function card(review, i) {
+    var el = document.createElement("figure")
+    el.className = "rv"
+    var stars = document.createElement("span")
+    stars.className = "stars"
+    stars.textContent = "★★★★★".slice(0, Math.max(1, Math.min(5, review.rating || 5)))
+    var text = document.createElement("p")
+    text.textContent = review.text
+    var who = document.createElement("figcaption")
+    who.className = "who"
+    var av = document.createElement("span")
+    av.className = "avatar"
+    av.style.setProperty("--av", AV[i % AV.length])
+    av.textContent = (review.author || "?").trim().charAt(0).toUpperCase()
+    who.appendChild(av)
+    who.appendChild(document.createTextNode(review.author || "Klients"))
+    el.appendChild(stars)
+    el.appendChild(text)
+    el.appendChild(who)
+    return el
+  }
+  function loop(track) {
+    track.querySelectorAll("[data-clone]").forEach(function (el) { el.remove() })
+    if (calm) return
+    Array.prototype.slice.call(track.children).forEach(function (el) {
+      var copy = el.cloneNode(true)
+      copy.setAttribute("data-clone", "")
+      copy.setAttribute("aria-hidden", "true")
+      track.appendChild(copy)
+    })
+    track.style.setProperty("--dur", Math.max(30, Math.round(track.scrollWidth / 2 / 45)) + "s")
+  }
+  var wall = document.querySelector("[data-reviews-wall]")
+  if (wall) wall.querySelectorAll(".wall-track").forEach(loop)
+  window.guppiReviews = function (list) {
+    if (!wall || !list.length) return
+    var tracks = wall.querySelectorAll(".wall-track")
+    tracks.forEach(function (track) { track.innerHTML = "" })
+    list.forEach(function (review, i) { tracks[i % tracks.length].appendChild(card(review, i)) })
+    tracks.forEach(loop)
+    if (spotlight) spotlight.set(list.filter(function (r) { return r.text.length > 70 }).slice(0, 6))
+  }
+
+  // Izceltā atsauksme: mainās ik pēc 7 s, var izvēlēties ar punktiem.
+  var spot = document.querySelector("[data-spotlight]")
+  var spotlight = null
+  if (spot) {
+    var quote = spot.querySelector("blockquote")
+    var name = spot.querySelector("[data-who]")
+    var initial = spot.querySelector(".avatar")
+    var dots = spot.querySelector(".dots")
+    var items = JSON.parse(spot.getAttribute("data-spotlight") || "[]")
+    var at = 0
+    var timer = null
+    function show(i) {
+      at = (i + items.length) % items.length
+      spot.classList.add("fade")
+      setTimeout(function () {
+        quote.textContent = "“" + items[at].text + "”"
+        name.textContent = items[at].author
+        initial.textContent = items[at].author.charAt(0).toUpperCase()
+        initial.style.setProperty("--av", AV[at % AV.length])
+        dots.querySelectorAll("button").forEach(function (b, k) { b.classList.toggle("on", k === at) })
+        spot.classList.remove("fade")
+      }, calm ? 0 : 300)
+    }
+    function drawDots() {
+      dots.innerHTML = ""
+      items.forEach(function (item, k) {
+        var b = document.createElement("button")
+        b.type = "button"
+        b.setAttribute("aria-label", "Atsauksme " + (k + 1))
+        b.className = k === at ? "on" : ""
+        b.addEventListener("click", function () { show(k); restart() })
+        dots.appendChild(b)
+      })
+    }
+    function restart() {
+      clearInterval(timer)
+      if (!calm && items.length > 1) timer = setInterval(function () { show(at + 1) }, 7000)
+    }
+    spotlight = { set: function (list) { if (!list.length) return; items = list; at = 0; drawDots(); show(0); restart() } }
+    drawDots()
+    restart()
+    spot.addEventListener("mouseenter", function () { clearInterval(timer) })
+    spot.addEventListener("mouseleave", restart)
+  }
 })()
