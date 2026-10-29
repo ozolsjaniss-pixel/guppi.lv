@@ -221,7 +221,7 @@ nav.desk a:hover::after, nav.desk a[aria-current]::after { transform: scaleX(1);
 @keyframes spin-slow { to { rotate: -8deg; } }
 
 /* ticker */
-.ticker { background: var(--plum); color: #fff; overflow: hidden; font-family: Nunito, sans-serif; font-weight: 900; font-size: 1.05rem; border-block: 3px solid var(--plum-deep); rotate: -1deg; margin: -1.2rem -1rem 3.5rem; position: relative; z-index: 2; }
+.ticker { background: var(--plum); color: #fff; overflow: hidden; font-family: Nunito, sans-serif; font-weight: 900; font-size: 1.05rem; border-block: 3px solid var(--plum-deep); margin: 0 0 3.5rem; position: relative; z-index: 2; }
 .ticker-track { display: flex; width: max-content; gap: 2.5rem; padding: 0.75rem 1.25rem; animation: marquee 32s linear infinite reverse; }
 .ticker .ic { color: #ffd56b; }
 .ticker-track span { display: inline-flex; align-items: center; gap: 0.5rem; white-space: nowrap; }
