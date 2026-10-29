@@ -42,16 +42,96 @@
     })
     query.addEventListener("input", apply)
     sort.addEventListener("change", apply)
+    var start = new URLSearchParams(location.search).get("grupa")
+    var preset = start && root.querySelector('[data-filter="' + start.replace(/[^a-z]/g, "") + '"]')
+    if (preset) preset.click()
   })
 
+  // Galerija: bultas, skaitītājs, vilkšana ar pirkstu, tastatūra un pilnekrāna skats.
   document.querySelectorAll("[data-gallery]").forEach(function (gallery) {
     var main = gallery.querySelector("[data-main]")
-    gallery.querySelectorAll("[data-src]").forEach(function (button) {
-      button.addEventListener("click", function () {
-        main.setAttribute("src", button.getAttribute("data-src"))
-        gallery.querySelectorAll("[data-src]").forEach(function (item) { item.classList.toggle("on", item === button) })
-      })
+    var thumbs = Array.prototype.slice.call(gallery.querySelectorAll("[data-src]"))
+    var srcs = thumbs.map(function (b) { return b.getAttribute("data-src") })
+    var at = 0
+    var stage = document.createElement("div")
+    stage.className = "stage"
+    main.parentNode.insertBefore(stage, main)
+    stage.appendChild(main)
+    function button(cls, label, svg) {
+      var b = document.createElement("button")
+      b.type = "button"
+      b.className = cls
+      b.setAttribute("aria-label", label)
+      b.innerHTML = svg
+      return b
+    }
+    var arrowL = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>'
+    var arrowR = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>'
+    var count = document.createElement("span")
+    count.className = "g-count"
+    var zoom = button("g-zoom", "Atvērt pilnā izmērā", '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Palielināt')
+    if (srcs.length > 1) {
+      var prev = button("g-nav prev", "Iepriekšējā bilde", arrowL)
+      var next = button("g-nav next", "Nākamā bilde", arrowR)
+      prev.addEventListener("click", function () { show(at - 1) })
+      next.addEventListener("click", function () { show(at + 1) })
+      stage.appendChild(prev)
+      stage.appendChild(next)
+      stage.appendChild(count)
+    }
+    stage.appendChild(zoom)
+    function show(i) {
+      at = (i + srcs.length) % srcs.length
+      main.setAttribute("src", srcs[at])
+      count.textContent = (at + 1) + " / " + srcs.length
+      thumbs.forEach(function (b, k) { b.classList.toggle("on", k === at) })
+      if (box.open) { boxImg.src = srcs[at]; boxCount.textContent = count.textContent }
+    }
+    thumbs.forEach(function (b, k) { b.addEventListener("click", function () { show(k) }) })
+    var x0 = null
+    stage.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX }, { passive: true })
+    stage.addEventListener("touchend", function (e) {
+      if (x0 === null) return
+      var dx = e.changedTouches[0].clientX - x0
+      if (Math.abs(dx) > 40) show(at + (dx < 0 ? 1 : -1))
+      x0 = null
     })
+    // pilnekrāna skats
+    var box = document.createElement("dialog")
+    box.className = "lightbox"
+    var boxImg = document.createElement("img")
+    boxImg.alt = main.alt
+    var boxCount = document.createElement("span")
+    boxCount.className = "g-count"
+    var close = button("g-close", "Aizvērt", "×")
+    close.addEventListener("click", function () { box.close() })
+    box.appendChild(boxImg)
+    if (srcs.length > 1) {
+      var bp = button("g-nav prev", "Iepriekšējā bilde", arrowL)
+      var bn = button("g-nav next", "Nākamā bilde", arrowR)
+      bp.addEventListener("click", function () { show(at - 1) })
+      bn.addEventListener("click", function () { show(at + 1) })
+      box.appendChild(bp)
+      box.appendChild(bn)
+      box.appendChild(boxCount)
+    }
+    box.appendChild(close)
+    box.addEventListener("click", function (e) { if (e.target === box) box.close() })
+    document.body.appendChild(box)
+    function open() {
+      if (!box.showModal) return
+      boxImg.src = srcs[at]
+      boxCount.textContent = count.textContent
+      box.showModal()
+    }
+    main.addEventListener("click", open)
+    zoom.addEventListener("click", open)
+    document.addEventListener("keydown", function (e) {
+      if (!box.open) return
+      if (e.key === "ArrowLeft") show(at - 1)
+      if (e.key === "ArrowRight") show(at + 1)
+    })
+    show(0)
   })
 
   document.querySelectorAll("[data-postal-lookup]").forEach(function (input) {
