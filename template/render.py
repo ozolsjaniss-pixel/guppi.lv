@@ -536,6 +536,16 @@ def item_page(site: Site, slug: str) -> str:
     prepare = ''.join(f'<li>{site.text(x)}</li>' for x in it.get('prepare', ip['prepare']))
     similar = ''.join(card(site, s) for s in it['similar'])
     co = ip['callout']
+    if it.get('kind') == 'quote':
+        # Priced on request: "no X €" or "pēc pieprasījuma", and the configurator (or the request form) from the portal.
+        offer = f'<p class="price-line"><span class="price big">{esc(it.get("price_text") or "")}</span></p>'
+        wide = (f'\n    <div class="configurator" id="konfigurators" data-portal-configurator="{esc(site.b["slug"])}" '
+                f'data-item="{esc(slug)}"></div>')
+    else:
+        wide = ''
+        offer = f'''<p class="price-line"><span class="price big">{esc(w['from'])} {site.text('{price:' + slug + '}')}</span> <span class="muted">{esc(w['per_day'])}</span></p>
+        <div class="booking" id="kalendars" data-portal-booking="{esc(site.b['slug'])}" data-item="{esc(slug)}" data-cart-href="{{{{pre}}}}grozs/index.html"></div>
+        <p class="note">{site.text(ip['times'])}</p>'''
     return f'''<div class="wrap page">
     <p class="muted"><a href="{{{{pre}}}}atrakcijas/index.html">{esc(w['catalog'])}</a> / {esc(it['name'])}</p>
     <div class="product">
@@ -548,14 +558,12 @@ def item_page(site: Site, slug: str) -> str:
         <h1>{esc(it['name'])}</h1>
         <p class="lead">{esc(it['summary'])}</p>
         <p class="muted desc">{esc(it['description'])}</p>{feats}
-        <p class="price-line"><span class="price big">{esc(w['from'])} {site.text('{price:' + slug + '}')}</span> <span class="muted">{esc(w['per_day'])}</span></p>
-        <div class="booking" id="kalendars" data-portal-booking="{esc(site.b['slug'])}" data-item="{esc(slug)}" data-cart-href="{{{{pre}}}}grozs/index.html"></div>
-        <p class="note">{site.text(ip['times'])}</p>
+        {offer}
         <ul class="guarantees">{guar}</ul>
         <dl class="specs">{specs}
         </dl>
       </div>
-    </div>
+    </div>{wide}
     <div class="split extras">
       <div class="panel"><h2>{esc(ip['included_title'])}</h2><ul class="checks">{included}</ul></div>
       <div class="panel"><h2>{esc(ip['prepare_title'])}</h2><ol class="todo">{prepare}</ol></div>
