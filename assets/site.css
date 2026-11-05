@@ -107,6 +107,8 @@ nav.desk a { text-decoration: none; white-space: nowrap; }
 .filters button, .choice { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 0.4rem 0.75rem; font: inherit; cursor: pointer; }
 .filters button.on, .choice.on { background: var(--primary); color: white; border-color: var(--primary); }
 .tools { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; }
+.tools label { display: inline-flex; align-items: center; gap: 0.5rem; white-space: nowrap; font-weight: 700; }
+.tools select { width: auto; }
 input, select, textarea {
   width: 100%; min-height: 2.7rem; border: 1px solid var(--line); border-radius: 0.7rem;
   background: var(--card); color: var(--ink); font: inherit; padding: 0.45rem 0.7rem;
