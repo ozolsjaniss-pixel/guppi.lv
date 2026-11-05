@@ -240,6 +240,17 @@ def sec_head(site: Site, s: dict) -> str:
     return f'<div class="sec-head"><div><p class="eyebrow">{ic(s.get("eyebrow_icon", ""))} {site.text(s["eyebrow"])}</p><h2>{site.text(s["title"])}</h2>{sub}</div>{more}</div>'
 
 
+def stars(it: dict, href: str, cls: str) -> str:
+    """The item's own rating from its reviews: "★ 4,9 · 9 atsauksmes", linking to them; nothing without any."""
+    got = it.get('stars') or {}
+    n = int(got.get('count') or 0)
+    if not n:
+        return ''
+    word = 'atsauksme' if n % 10 == 1 and n % 100 != 11 else 'atsauksmes'
+    return (f'<a class="{cls}" href="{href}#atsauksmes" aria-label="Vērtējums {esc(got.get("average"))} no 5, {n} {word}">'
+            f'<span class="stars-icon" aria-hidden="true">★</span> <b>{esc(got.get("average"))}</b> · {n} {word}</a>')
+
+
 def card(site: Site, slug: str) -> str:
     it = site.items[slug]
     href = f'{{{{pre}}}}atrakcijas/{slug}/index.html'
@@ -250,6 +261,7 @@ def card(site: Site, slug: str) -> str:
     </a>
     <div class="pad">
       <h2><a href="{href}">{esc(it['name'])}</a></h2>
+      {stars(it, href, 'card-stars')}
       <p class="muted meta">{esc(it['meta'])}</p>
       <p class="summary">{esc(it['summary'])}</p>
       <div class="card-foot">
@@ -556,6 +568,7 @@ def item_page(site: Site, slug: str) -> str:
       <div>
         <p class="plum">{esc(it['badge'])}</p>
         <h1>{esc(it['name'])}</h1>
+        {stars(it, '', 'item-stars')}
         <p class="lead">{esc(it['summary'])}</p>
         <p class="muted desc">{esc(it['description'])}</p>{feats}
         {offer}
@@ -569,7 +582,7 @@ def item_page(site: Site, slug: str) -> str:
       <div class="panel"><h2>{esc(ip['prepare_title'])}</h2><ol class="todo">{prepare}</ol></div>
     </div>
     <div class="callout reveal"><p>{ic(co['icon'])} {site.text(co['text'])}</p>{btn(site, co['button'])}</div>
-    <!--slot:portal-reviews:products--><h2 class="similar">{esc(ip['similar_title'])}</h2>
+    <div id="atsauksmes"></div><!--slot:portal-reviews:products--><h2 class="similar">{esc(ip['similar_title'])}</h2>
     <div class="cards">{similar}</div>
   </div>'''
 

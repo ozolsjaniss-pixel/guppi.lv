@@ -492,3 +492,13 @@ ol.todo li::before { counter-increment: todo; content: counter(todo); flex: none
 .foot .powered { margin-left: auto; display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.3rem 0.8rem; border-radius: 999px; background: #fff; border: 1px solid var(--line); font-size: 0.85rem; color: var(--muted); }
 .foot .powered b { color: var(--primary); font-family: Nunito, sans-serif; font-weight: 900; }
 .foot .powered:hover { border-color: var(--primary); text-decoration: none; }
+.card-stars, .item-stars { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--muted); font-size: 0.92rem; text-decoration: none; margin: 0.15rem 0 0.1rem; }
+.card-stars b, .item-stars b { color: var(--ink); }
+.card-stars .stars-icon, .item-stars .stars-icon { color: #f5a623; font-size: 1.05em; }
+.card-stars:hover, .item-stars:hover { color: var(--ink); }
+.item-stars { margin: 0.1rem 0 0.5rem; font-size: 1rem; }
+#atsauksmes { scroll-margin-top: 5rem; }
+/* Every card's price row at the bottom, so a row of cards lines up whatever is above it (stars or none). */
+.card { display: flex; flex-direction: column; }
+.card .pad { flex: 1; display: flex; flex-direction: column; }
+.card .card-foot { margin-top: auto; padding-top: 0.8rem; }
